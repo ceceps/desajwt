@@ -11,11 +11,11 @@ class Kecamatan extends Model
 
     public function kelurahan()
     {
-        return $this->hasMany('App\Kelurahan');
+        return $this->hasMany(\App\Kelurahan::class);
     }
 
     public function kabupaten()
     {
-        return $this->belongsTo('App\Kabupaten');
+        return $this->belongsTo(\App\Kabupaten::class);
     }
 }

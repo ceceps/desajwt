@@ -12,6 +12,6 @@ class JenisDataStatistik extends Model
 
     public function desawisata_statistik()
     {
-        return $this->hasMany('App\DesaWisata', 'desawisata_id', 'id');
+        return $this->hasMany(\App\DesaWisata::class, 'desawisata_id', 'id');
     }
 }

@@ -11,6 +11,6 @@ class MediaDesa extends Model
     public $primaryKey ='media_id';
 
     public function ProfilDesa(){
-        $this->belongsTo('App\ProfilDesa');
+        $this->belongsTo(\App\ProfilDesa::class);
     }
 }

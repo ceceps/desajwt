@@ -42,7 +42,7 @@ class Artikel extends Model
 
     public function media()
     {
-        return $this->hasMany('App\Media', 'code_id', $this->primaryKey)->where('parent_table', '=', $this->table);
+        return $this->hasMany(\App\Media::class, 'code_id', $this->primaryKey)->where('parent_table', '=', $this->table);
     }
 
     public function komentar()

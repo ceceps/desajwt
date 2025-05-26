@@ -11,12 +11,12 @@ class Kabupaten extends Model
 
     public function kecamatan()
     {
-        return $this->hasMany('App\Kecamatan');
+        return $this->hasMany(\App\Kecamatan::class);
     }
 
     public function provinsi()
     {
-        return $this->belongsTo('App\Provinsi', 'id_prov', 'id');
+        return $this->belongsTo(\App\Provinsi::class, 'id_prov', 'id');
     }
 
     public function getKodePeta($val)

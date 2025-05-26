@@ -20,7 +20,7 @@ class DesaWisataUsahaPariwisata extends Model
     }
     public function media()
     {
-        return $this->hasMany('App\Media', 'code_id', 'id')->where('parent_table', '=', 'r_desawisata_jenis_usaha');
+        return $this->hasMany(\App\Media::class, 'code_id', 'id')->where('parent_table', '=', 'r_desawisata_jenis_usaha');
     }
 
 
