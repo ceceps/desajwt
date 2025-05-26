@@ -1,0 +1,72 @@
+.pt10{
+    padding-top: 10px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+}
+.required{
+    color: #FF0000;
+}
+.side-top-title{
+    color: #ffffff;
+}
+.profile_pic{
+    margin-left: 65px;
+}
+.profile_info{
+    padding: 0;
+    width: 90%;
+}
+
+
+
+.dashboard-nav .nav-item i,.btn.nav-item span, .menu-item span, .dashboard-bottom i{
+    color: #cfcccc;
+   }
+
+.side-child-menu > a {
+ color: #000000;
+}
+.side-child-menu > a:hover {
+    color: blue;
+   }
+
+   label>a{
+       color: #ffffff;
+   }
+
+   div.dataTables_wrapper div.dataTables_filter input[type=search]{
+        background-color: #ffffff;
+   }
+   .top-entry .dashboard-breadcrumb li a{
+       color: #0a0a0a;
+   }
+.form-custom .form-control, .form-custom .custom-select, .form-custom .form-control-file{
+    font-size: 15px;
+}
+input, select, textarea,input, button, select, textarea, input[type=password], input[type=text], input[type=date], input[type=email], input[type=number]{
+    font-weight: 500;
+}
+
+.form-custom.has-category .form-group.has-two-fields .category-field {
+    width: 100%;
+}
+label.main-label{
+    font-size: 14px;
+}
+.badge-trash {
+    background-color: #ff4081;
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    color: white;
+}

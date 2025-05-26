@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="teddy dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="csrf-token" content="wRYdHbL5Rn67tQAK0ZAzYZHlSC8CxY6ha3vggPiw" />
+    <meta name="rest-url" content="http://desawisata.apps/" />
+    <meta name="theme-color" content="#fff">
+    <meta name="application-name">
+    <title>Tambah Data Kelompok Sosial Desa Wisata - Desa Wisata Jawa Barat</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="http://desajwt.apps/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://desajwt.apps/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://desajwt.apps/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://desajwt.apps/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://desajwt.apps/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://desajwt.apps/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://desajwt.apps/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://desajwt.apps/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://desajwt.apps/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://desajwt.apps/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://desajwt.apps/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://desajwt.apps/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://desajwt.apps/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://desajwt.apps/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="http://desajwt.apps/images/favicon/favicon.ico">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="http://desajwt.apps/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://desajwt.apps/images/favicon/favicon-16x16.png">
+
+    <!--[if (lte IE 8)&!(IEMobile)]>
+
+    <script src="/assets/scripts/html5shiv.min.js"></script>
+    <script src="/assets/scripts/respond.min.js"></script>
+
+    [endif]-->
+
+
+    <link href="http://desajwt.apps/styles/vendor-min.css" rel="stylesheet">
+    <link href="http://desajwt.apps/styles/main.min.css" rel="stylesheet">
+    <link href="http://desajwt.apps/styles/devices.min.css" rel="stylesheet">
+    <link href="http://desajwt.apps/styles/custom.min.css" rel="stylesheet">
+
+    <link href="http://desajwt.apps/styles/dash-responsive.min.css" rel="stylesheet">
+
+    <link href="http://desajwt.apps/styles/jquery-ui-bootstrap.min.css" rel="stylesheet" />
+    <link href="http://desajwt.apps/scripts/lib/colorbox/example3/colorbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://desajwt.apps/scripts/lib/formvalidation/css/formValidation.min.css">
+    <style>
+        .form-control-feedback {
+            color: read;
+        }
+
+        /* #progress { position:relative; width:300px;color:#111; border: 1px solid #ddd; padding: 1px; border-radius: 3px;display: none; } */
+    </style>
+
+    <link href="http://desajwt.apps/styles/desawisata_admin.css" rel="stylesheet">
+
+
+    <script>
+        var base_url = '';
+        var rest_url = 'http://desawisata.apps/api/';
+    </script>
+
+</head>
+<div class="dashboard">
+    <aside class="dashboard-side">
+        <div class="side-profile">
+            <div class="side-brand">
+                <a href="#0" class="brand-logo">
+                    <img src="http://desajwt.apps/images/logo.png" alt="" class="img-profile">
+                </a>
+                <h2 class="side-top-title">Desa Wisata Jawa Barat</h2>
+            </div>
+            <div class="profile-thumbnail">
+                <img src="http://desajwt.apps/storage/avatar/1556405691cecep-saefulloh.jpg" alt="profile"
+                    class="img-profile">
+                <button type="button" class="btn btn-circle"
+                    onclick="location.href='http:///desajwt.apps/backend/users/edit/1'"><i
+                        class="mdi mdi-account-edit"></i></button>
+            </div>
+            <div class="profile-name">
+                <h4>Cecep Saefulloh</h4>
+                <div class="button-group">
+                    <button type="button" class="btn btn-default"
+                        onclick="window.location='http://desajwt.apps/backend/users/edit/1' ">Edit Profil</button>
+
+                    <a href="http://desajwt.apps/logout" onclick="event.preventDefault();
+          document.getElementById('logout-form').submit();" class="btn btn-default">
+                        Logout
+                    </a>
+                    <form id="logout-form" action="http://desajwt.apps/logout" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="wRYdHbL5Rn67tQAK0ZAzYZHlSC8CxY6ha3vggPiw"> </form>
+                </div>
+            </div>
+        </div>
+        <nav class="dashboard-nav">
+            <button class="btn nav-item" type="button" onclick="window.location='http://desajwt.apps/backend'">
+                <i class="icon-home-1"></i>
+                <span>Dashboard</span>
+            </button>
+            <div class="accordion" id="sideMenu">
+                <div class="menu-item">
+                    <button class="btn nav-item" data-toggle="collapse" data-target="#menuOne" aria-expanded="true"
+                        aria-controls="menuOne">
+                        <i class="icon-play-button"></i>
+                        <span>Desa Wisata</span>
+                    </button>
+                    <div id="menuOne" class="collapse child-menu-content" data-parent="#sideMenu">
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/desawisata">Semua</a>
+                            <i class="icon-next"></i>
+                        </div>
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/desawisata/tampil/view">Tampil</a>
+                            <i class="icon-next"></i>
+                        </div>
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/desawisata/draft/view">Draft</a>
+                            <i class="icon-next"></i>
+                        </div>
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/desawisata/trash/view">Trash</a>
+                            <i class="icon-next"></i>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn nav-item" onclick="window.location='http://desajwt.apps/backend/profildesa'">
+                    <i class="icon-map"></i>
+                    <span>Profil Desa</span>
+                </a>
+                <a class="btn nav-item" onclick="window.location='http://desajwt.apps/backend/map'">
+                    <i class="icon-map"></i>
+                    <span>Peta Desa Wisata</span>
+                </a>
+                <div class="menu-item">
+                    <button class="btn nav-item" data-toggle="collapse" data-target="#menuTwo" aria-expanded="true"
+                        aria-controls="menuTwo">
+                        <i class="icon-play-button"></i>
+                        <span>Galeri</span>
+                    </button>
+                    <div id="menuTwo" class="collapse child-menu-content" data-parent="#sideMenu">
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/galeri/foto">
+                                <i class="icon-gallery"></i>
+                                Foto
+                            </a>
+                        </div>
+                        <div class="side-child-menu">
+                            <a href='http://desajwt.apps/backend/galeri/video'><i
+                                    class="icon-play-button-1"></i>Video</a>
+                        </div>
+                        <div class="side-child-menu">
+                            <a href='http://desajwt.apps/backend/galeri'>
+                                <i class="icon-attach"></i>Semua
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <button class="btn nav-item" data-toggle="collapse" data-target="#menuThree" aria-expanded="true"
+                        aria-controls="menuThree">
+                        <i class="icon-folder"></i>
+                        <span>Artikel</span>
+                    </button>
+                    <div id="menuThree" class="collapse child-menu-content" data-parent="#sideMenu">
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/artikel">
+                                <i class="icon-gallery"></i>
+                                Posting
+                            </a>
+                        </div>
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/halaman">
+                                <i class="icon-gallery"></i>
+                                Halaman
+                            </a>
+                        </div>
+                        <div class="side-child-menu">
+                            <a href="http://desajwt.apps/backend/kategoriartikel">
+                                <i class="icon-attach"></i>Kategori
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="btn nav-item">
+                    <i class="icon-chat"></i>
+                    <span>Chat</span>
+                </a>
+                <a class="btn nav-item" href="http://desajwt.apps/backend/users">
+                    <i class="icon-viral-marketing"></i>
+                    <span>Manajemen Pengguna</span>
+                </a>
+            </div>
+            <br><br>
+            <br><br>
+        </nav>
+        <nav class="dashboard-bottom">
+            <button type="button" class="btn btn-default btn-sm">
+                <i class="icon-settings"></i>
+            </button>
+            <button type="button" class="btn btn-default btn-sm">
+                <i class="mdi mdi-help-circle"></i>
+            </button>
+            <button type="button" class="btn btn-default btn-sm side-compact">
+                <i class="mdi mdi-chevron-left"></i>
+                <i class="mdi mdi-chevron-right"></i>
+            </button>
+        </nav>
+    </aside>
+    <div class="dashboard-entry">
+        <main class="main-wrap">
+            <header class="main-header">
+                <div class="container-fluid">
+                    <div class="header-content">
+                        <button type="button" class="btn btn-dash side-compact">
+                            <i class="icon-menu"></i>
+                        </button>
+                        <div class="logo">
+                            <a href="#0" class="header-logo">
+                                <img src="http://desajwt.apps/images/logo.png" alt="jabar logo" class="img-fluid">
+                            </a>
+                            <h1>Desa Wisata Jabar</h1>
+                            <input type="hidden" name="_token" value="wRYdHbL5Rn67tQAK0ZAzYZHlSC8CxY6ha3vggPiw">
+                            <div class="form-group">
+                                <form action="http://desajwt.apps/backend" method="GET">
+                                    <input type="text" name="search_text" class="form-control"
+                                        placeholder="search jawa barat">
+                                    <button type="submit" class="btn btn-default">
+                                        <i class="mdi mdi-search-web"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-right-dash">
+                            <i class="icon-speech-bubble"></i>
+                        </button>
+
+
+                        <nav class="main-navigation">
+                            <div class="dropdown">
+                                <button class="btn btn-default" type="button" id="topProfile" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="mdi mdi-account"></i>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Edit Profil</a>
+                                    <a href="http://desajwt.apps/logout" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();" class="dropdown-item">
+                                        Logout
+                                    </a>
+                                    <form id="logout-form" action="http://desajwt.apps/logout" method="POST"
+                                        style="display: none;">
+                                        <input type="hidden" name="_token"
+                                            value="wRYdHbL5Rn67tQAK0ZAzYZHlSC8CxY6ha3vggPiw"> </form>
+                                </div>
+                            </div>
+
+                        </nav>
+
+                    </div>
+                </div>
+            </header>
+            <div class="main-content">
+                <!-- begin top dashboard -->
+                <div class="dashboard-top">
+                    <div class="container-fluid">
+                        <div class="top-entry">
+                            <div class="top-status">
+
+                                <h3>Tambah Data Kelompok Sosial Desa Wisata</h3>
+
+                                <!-- for single action page remove this breadcrumb-->
+                                <nav class="dashboard-breadcrumb">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="http://desajwt.apps/dashboard.index">
+                                                <i class="mdi mdi-home"></i>
+                                                Dashboard
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://desajwt.apps/backend/desawisata">
+                                                <i class="mdi mdi-chevron-right"></i>
+                                                Desa Wisata
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <i class="mdi mdi-chevron-right"></i> Tambah Data Kelompok Sosial Desa
+                                            Wisata
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+                            <div class="top-option">
+                                30-04-2019 09:28:33
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end top dashboard -->
+                <div class="dashboard-wizard" style="padding:10px">
+                    <ul class="submit-steps">
+                        <li>Profil Desa Wisata </li>
+                        <li>Pengelola</li>
+                        <li>Atraksi</li>
+                        <li>Aksesibilitas</li>
+                        <li class="active">&raquo; Fasilitas</li>
+                        <li>Promosi</li>
+                        <li>Kelompok Sosial</li>
+                        <li>Usaha Pariwisata</li>
+                        <li>Statistik</li>
+                        <li>Bantuan</li>
+                        <li>Penghargaan</li>
+                    </ul>
+
+                    <form id="formdesawisataprofil" class="form-custom has-category repeater"
+                        action="http://desajwt.apps/backend/desawisata" data-toggle="validator" role="form"
+                        method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="_token" value="wRYdHbL5Rn67tQAK0ZAzYZHlSC8CxY6ha3vggPiw">
+                        <div class="setup-content">
+
+                            <!-- begin form style ---->
+                            <div class="form-based">
+                                <div class="top-form with-option">
+                                    <div class="form-title">
+                                        <h4 class="form-title">Kelompok Sosial Desa Wisata Mekarsari</h4>
+                                        <p class="title-helper ">Input bertanda <em class="asterix">*</em> wajib diisi
+                                        </p>
+                                    </div>
+                                    <div class="form-option">
+                                        <button type="button" class="btn btn-default" id="btnadd_kelsos">
+                                            <span class="icon-circle">
+                                                <i class="mdi mdi-plus-circle"></i>
+                                            </span>
+                                            Tambah Baru
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="form-group tab-pane" id="data-kelsos">
+                                    <div class="fieldset has-five item-kelsos">
+                                        <div class="field-item">
+                                            <button type="button"
+                                                class="btn btn-danger btn-sm item-kelsos-delete hidden-large"><i
+                                                    class="mdi mdi-trash-can-outline"></i></button>
+                                            <label class="control-label">Jenis Kelompok Sosial<em
+                                                    class="asterix">*</em></label>
+                                            <select class="form-control select-jenis-kelsos"
+                                                name="jenis_kelsos_id[]"></select>
+                                        </div>
+                                        <div class="field-item">
+                                            <label class="control-label">Nama Kelompok Sosial<em
+                                                    class="asterix">*</em></label>
+                                            <input type="text" id="title-kelsos" name="title_kelsos[]" value=""
+                                                class="form-control" placeholder="Judul Item">
+                                            <textarea name="ket-kelsos[]" class="form-control"
+                                                placeholder="keterangan item"></textarea>
+                                        </div>
+                                        <div class="field-item">
+                                            <label class="control-label col-large">Foto<em
+                                                    class="asterix">*</em></label>
+                                            <input type="text" id="foto-kelsos" name="foto-kelsos[]" value=""
+                                                class="form-control" readonly>
+                                            <a href="" class="popup_selector" data-inputid="foto-kelsos">Browse Foto</a>
+                                            <input type="text" id="title-kelsos" name="title_foto_kelsos[]" value=""
+                                                class="form-control" placeholder="Judul Foto">
+                                        </div>
+                                        <div class="field-item">
+                                            <label class="control-label">Video</label>
+                                            <input type="text" id="video-kelsos" name="video-kelsos[]" value=""
+                                                class="form-control" readonly>
+                                            <a href="" class="popup_selector" data-inputid="video-kelsos">Browse
+                                                Video</a>
+                                            <input type="text" id="title-kelsos" name="title_video_kelsos[]" value=""
+                                                class="form-control" placeholder="Judul Video">
+                                        </div>
+                                        <div class="field-item">
+                                            <label class="control-label hidden-mobile">Aksi</label>
+                                            <button javascript="void(0)" type="button"
+                                                class="btn btn-danger item-kelsos-delete hidden-mobile"><i
+                                                    class="mdi mdi-trash-can-outline"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- end form style ---->
+                        </div>
+                        <!-- untuk progress bar -->
+                        <input type="button" class="btn" value="Kelompok" id="kembali"
+                            onclick="javascript:location.href='http://desajwt.apps/backend/desawisata/createpromosi/3'">
+                        <input type="submit" class="btn btn-success" value="Simpan Data Kelompok Sosial" id="save_add">
+
+                    </form>
+                </div>
+            </div>
+
+    </div>
+    <footer class="main-footer">
+        <div class="text-center">
+            Disparbud @ 2018, Desa Wisata Jawa Barat
+        </div>
+    </footer>
+    </main>
+</div>
+
+<div class="modal fade" id="mediaModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-media" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://desajwt.apps/scripts/lib/jquery-3.3.1.min.js"></script>
+<script src="http://desajwt.apps/scripts/lib/popper.min.js"></script>
+<script src="http://desajwt.apps/scripts/bootstrap.min.js"></script>
+<script src="http://desajwt.apps/scripts/lib/moment.min.js"></script>
+<script src="http://desajwt.apps/scripts/jquery.slimscroll.min.js"></script>
+<script src="http://desajwt.apps/scripts/lib/select2.full.min.js"></script>
+
+
+<script src="http://desajwt.apps/scripts/option.js"></script>
+<script src="http://desajwt.apps/scripts/lib/main.min.js"></script>
+<script src="http://desajwt.apps/scripts/js.cookie.min.js"></script>
+<script>
+    var loginUrl = 'http://desajwt.apps/backend/login';
+    var dashboardUrl = 'http://desajwt.apps/backend';
+    var getDesaWisataUrl = 'v1/desawisata';
+
+    var storeDesaWisataProfilUrl = 'http://desajwt.apps/backend/desawisata';
+    var storeDesaWisataPengelolaUrl = 'v1/desawisata/storepengelola';
+    var storeDesaWisataAtraksiUrl = 'v1/desawisata/storeatraksi';
+    var storeDesaWisataAksesUrl = 'v1/desawisata/storeakses';
+    var storeDesaWisataPromosiUrl = '';
+</script>
+<link href="http://desajwt.apps/scripts/lib/sweetalert2.all.min.css">
+<script type="text/javascript" src="http://desajwt.apps/scripts/lib/sweetalert2.all.min.js"></script>
+<script src="http://desajwt.apps/scripts/desawisata-admin.js"></script>
+
+
+
+<script src="http://desajwt.apps/scripts/lib/tinymce/tinymce.min.js"></script>
+<script src="http://desajwt.apps/scripts/lib/tinymce/langs/id.js"></script>
+<script src="http://desajwt.apps/scripts/jquery-ui.min.js"></script>
+<script src="http://desajwt.apps/scripts/lib/formvalidation/js/formValidation.min.js"></script>
+<script src="http://desajwt.apps/scripts/lib/formvalidation/js/framework/bootstrap4.min.js"></script>
+<script src="http://desajwt.apps/scripts/lib/formvalidation/js/language/id_ID.js"></script>
+<script src="http://desajwt.apps/scripts/lib/colorbox/jquery.colorbox-min.js"></script>
+<script src="http://desajwt.apps/packages/barryvdh/elfinder/js/standalonepopup.min.js"></script>
+
+<script>
+    $(function ($) {
+        var nowTemp = new Date();
+        var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+        var desawisataID = '';
+        var iKelsos = 1;
+
+        $('.select-jenis-kelsos').select2({
+            placeholder: 'Jenis Kelompok Sosial',
+            allowClear: true,
+            ajax: {
+                url: 'http://desajwt.apps/api/v1/getcombokelsos',
+                data: function (params) {
+                    var query = {
+                        search: params.term,
+                    }
+                    return query;
+                },
+                processResults: function (data) {
+                    return {
+                        results: data
+                    };
+                },
+            }
+        });
+
+
+        let tmpRowKelsos = function (iKelsos) {
+            let comboJenisKelsos = '<select class="form-control select-jenis-kelsos" name="jenis_kelsos_id[]"></select>';
+
+            return '<div class="fieldset has-five item-kelsos">' +
+                '<div class="field-item">' +
+                '<button  type="button" class="btn btn-danger item-kelsos-delete  hidden-large"><i class="mdi mdi-trash-can-outline"></i></button>' +
+                '<label class="control-label hidden-large">Jenis Kelompok Sosial<em class="asterix">*</em></label>' +
+                comboJenisKelsos
+                + '</div>' +
+                '<div class="field-item">' +
+                '<label class="control-label hidden-large">Item<em class="asterix">*</em></label>' +
+                '<input type="text" id="title-kelsos" name="title-kelsos[]" value="" class="form-control" placeholder="Judul Item">' +
+                '<textarea name="ket-kelsos[]" class="form-control" placeholder="keterangan item"></textarea>' +
+                '</div>' +
+                '<div class="field-item">' +
+                '<label class="control-label col-large hidden-large">Foto<em class="asterix">*</em></label>' +
+                '<input type="text" id="foto-kelsos" name="foto-kelsos[]" value="" class="form-control" readonly>' +
+                '<a href="" class="popup_selector" data-inputid="foto-kelsos">Browse Foto</a>' +
+                '<input type="text" id="title-kelsos" name="title-foto-kelsos[]" value="" class="form-control" placeholder="Judul Foto">' +
+                '</div>' +
+                '<div class="field-item">' +
+                '<label class="control-label hidden-large">Video</label>' +
+                '<input type="text" id="video-kelsos" name="video-kelsos[]" value=""  class="form-control" readonly>' +
+                '<a href="" class="popup_selector" data-inputid="video-kelsos">Browse Video</a>' +
+                '<input type="text" id="title-kelsos" name="title-video-kelsos[]" value="" class="form-control" placeholder="Judul Video">' +
+                '</div>' +
+                '<div class="field-item">' +
+                '<label class="control-label hidden-large">Aksi</label>' +
+                '<button  type="button" class="btn btn-danger item-kelsos-delete hidden-mobile"><i class="mdi mdi-trash-can-outline"></i></button>' +
+                '</div>' +
+                '</div>';
+        }
+
+        //form kelsos
+        $('#btnadd_kelsos').on('click', function () {
+            if ($('.item-kelsos:last').length == 0)
+                $('#data-kelsos').append(tmpRowKelsos(iKelsos));
+            else
+                $(tmpRowKelsos(iKelsos)).insertAfter('.item-kelsos:last');
+
+            $(".field-item").children("select").select2();
+            $('.select-jenis-kelsos').select2({
+                placeholder: 'Pilih Jenis Kelompok',
+                allowClear: true,
+                ajax: {
+                    url: 'http://desajwt.apps/api/v1/getcombokelsos',
+                    data: function (params) {
+                        var query = {
+                            search: params.term,
+                        }
+                        return query;
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    },
+                }
+            });
+            iKelsos++;
+        });
+
+
+        $("body").on("click", ".item-kelsos-delete", function () {
+            $(this).parents().closest(".item-kelsos").remove();
+        });
+
+        $('.save_next').on('click', function () {
+            $('#formdesawisataprofil').formValidation({
+                framework: 'bootstrap4',
+                icon: {
+                    valid: '',
+                    invalid: '',
+                    validating: ''
+                },
+                fields: {
+                    nama_desawisata: {
+                        validators: {
+                            notEmpty: {
+                                message: 'nama_desawisata diperlukan'
+                            }
+                        }
+                    },
+                    nama_desawisata: {
+                        validators: {
+                            notEmpty: {
+                                message: 'nama_desawisata diperlukan'
+                            }
+                        }
+                    }
+                }
+            }).on('success.form.fv', function () {
+                //e.preventDefault();
+                // var $form = $(e.target),
+                //     formData = new FormData(),
+                //     params = $form.serializeArray();
+                // $.each(params, function (i, val) {
+                //     formData.append(val.name, val.value);
+                // });
+                //     var files = $('#fotodesawisata')[0].files[0];
+                //     formData.append('file',files);
+                // add assoc key values, this will be posts values
+                // $.ajax({
+                //     url: storeDesaWisataProfilUrl,
+                //     data: formData,
+                //     type: 'post',
+                //     cache: false,
+                //     contentType: false,
+                //     processData: false,
+                //     beforeSend: function()
+                //     {
+                //         $("#progress").show();
+                //         $("#bar").width('0%');
+                //         $("#message").html("");
+                //         $("#percent").html("0%");
+                //         $("#upload-gambar").attr("disabled",""); // Membuat button upload jadi tidak bisa terklik
+                //     },
+                //     success: function (dt) {
+                //         $("#progress").hide();
+                //         if (dt.error == false) {
+                //             Swal.fire({
+                //                 title: 'Berhasil',
+                //                 text: dt.message,
+                //                 type: 'success',
+                //                 showCancelButton: true,
+                //                 confirmButtonText: 'OK',
+                //                 cancelButtonText: 'Batal',
+                //                 cancelButtonClass: 'cancel-class',
+                //                 showCancelButton: true,
+                //                 closeOnConfirm: false,
+                //                 }).then((result) => {
+                //                     window.location.href = base_url + '/backend/desawisata/'+dt.idprofil+'/createpengelola';
+                //                 });
+                //         } else {
+                //             Swal.fire({
+                //                 title: 'Terdapat Kesalahan',
+                //                 text: dt.message,
+                //                 type: 'warning',
+                //                 showCancelButton: true,
+                //                 confirmButtonText: 'Coba Lagi',
+                //                 cancelButtonText: 'Batal',
+                //                 cancelButtonClass: 'cancel-class',
+                //                 showCancelButton: true,
+                //                 closeOnConfirm: true
+                //                 }).then((result) => {
+                //                     window.location =  base_url + '/backend/desawisata/create';
+                //                 });
+                //             return false;
+                //         }
+                //     },
+                //     error: function(){
+                //         Swal.fire({
+                //                 title: 'Terdapat Kesalahan',
+                //                 text: "Terjadi Kesalahan Jaringan, Coba Hubungi Sistem Administrator",
+                //                 type: 'warning',
+                //                 showCancelButton: true,
+                //                 confirmButtonText: 'Coba Lagi',
+                //                 cancelButtonText: 'OK',
+                //                 cancelButtonClass: 'cancel-class',
+                //                 showCancelButton: false,
+                //                 closeOnConfirm: true
+                //                 }).then((result) => {
+                //                     window.location =  base_url + '/backend/desawisata/create';
+                //                 });
+                //     }
+                // });
+            });
+
+        });
+    });
+</script>
+
+</body>
+
+</html>

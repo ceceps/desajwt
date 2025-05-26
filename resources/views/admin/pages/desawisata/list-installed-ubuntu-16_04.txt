@@ -1,0 +1,1779 @@
+login as: dswjbr
+dswjbr@desawisatajabarcom-in.cloud.revoluz.io's password:
+Access denied
+dswjbr@desawisatajabarcom-in.cloud.revoluz.io's password:
+Access denied
+dswjbr@desawisatajabarcom-in.cloud.revoluz.io's password:
+Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 2.6.32-042stab133.2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Mon Feb 18 01:08:04 2019 from 112.215.210.120
+$ bash
+dswjbr@desawisatajabar:~$ sudo apt list --installed
+[sudo] password for dswjbr:
+Listing... Done
+acl/xenial,now 2.2.52-3 amd64 [installed,automatic]
+adduser/xenial,now 3.113+nmu3ubuntu4 all [installed]
+adwaita-icon-theme/xenial-updates,now 3.18.0-2ubuntu3.1 all [installed,automatic]
+apache2/now 2.4.18-2ubuntu3.1 amd64 [installed,upgradable to: 2.4.18-2ubuntu3.9]
+apache2-bin/now 2.4.18-2ubuntu3.1 amd64 [installed,upgradable to: 2.4.18-2ubuntu3.9]
+apache2-data/now 2.4.18-2ubuntu3.1 all [installed,upgradable to: 2.4.18-2ubuntu3.9]
+apache2-doc/now 2.4.18-2ubuntu3.1 all [installed,upgradable to: 2.4.18-2ubuntu3.9]
+apache2-utils/now 2.4.18-2ubuntu3.1 amd64 [installed,upgradable to: 2.4.18-2ubuntu3.9]
+apt/now 1.2.12~ubuntu16.04.1 amd64 [installed,upgradable to: 1.2.29ubuntu0.1]
+apt-show-versions/xenial,now 0.22.7 all [installed]
+apt-transport-https/xenial-updates,xenial-security,now 1.2.29ubuntu0.1 amd64 [installed]
+apt-utils/now 1.2.12~ubuntu16.04.1 amd64 [installed,upgradable to: 1.2.29ubuntu0.1]
+at-spi2-core/xenial,now 2.18.3-4ubuntu1 amd64 [installed,automatic]
+augeas-lenses/xenial-updates,xenial-security,now 1.4.0-0ubuntu1.1 all [installed,automatic]
+autoconf/xenial,now 2.69-9 all [installed,automatic]
+automake/xenial,now 1:1.15-4ubuntu1 all [installed,automatic]
+autotools-dev/xenial,now 20150820.1 all [installed,automatic]
+base-files/now 9.4ubuntu4.2 amd64 [installed,upgradable to: 9.4ubuntu4.7]
+base-passwd/xenial,now 3.5.39 amd64 [installed]
+bash/now 4.3-14ubuntu1.1 amd64 [installed,upgradable to: 4.3-14ubuntu1.2]
+bind9/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+bind9-host/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+bind9utils/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+binutils/now 2.26.1-1ubuntu1~16.04.1 amd64 [installed,upgradable to: 2.26.1-1ubuntu1~16.04.7]
+bsd-mailx/xenial,now 8.1.2-0.20160123cvs-2 amd64 [installed]
+bsdmainutils/xenial,now 9.0.6ubuntu3 amd64 [installed]
+bsdutils/now 1:2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 1:2.27.1-6ubuntu3.6]
+build-essential/xenial,now 12.1ubuntu2 amd64 [installed]
+busybox-initramfs/xenial,now 1:1.22.0-15ubuntu1 amd64 [installed]
+bzip2/xenial,now 1.0.6-8 amd64 [installed]
+ca-certificates/xenial,now 20160104ubuntu1 all [installed,upgradable to: 20170717~16.04.2]
+ca-certificates-java/xenial-updates,now 20160321ubuntu1 all [installed,automatic]
+cifs-utils/xenial,now 2:6.4-1ubuntu1 amd64 [installed,upgradable to: 2:6.4-1ubuntu1.1]
+colord/xenial,now 1.2.12-1ubuntu1 amd64 [installed,automatic]
+colord-data/xenial,now 1.2.12-1ubuntu1 all [installed,automatic]
+console-data/xenial,now 2:1.12-5 all [installed]
+coreutils/xenial,now 8.25-2ubuntu2 amd64 [installed,upgradable to: 8.25-2ubuntu3~16.04]
+cpio/xenial,now 2.11+dfsg-5ubuntu1 amd64 [installed]
+cpp/xenial,now 4:5.3.1-1ubuntu1 amd64 [installed,automatic]
+cpp-5/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+cracklib-runtime/xenial,now 2.9.2-1build2 amd64 [installed,upgradable to: 2.9.2-1ubuntu1]
+cron/xenial,now 3.0pl1-128ubuntu2 amd64 [installed]
+curl/now 7.47.0-1ubuntu2.11 amd64 [installed,upgradable to: 7.47.0-1ubuntu2.12]
+dash/xenial,now 0.5.8-2.1ubuntu2 amd64 [installed]
+db-util/xenial,now 1:5.3.21~exp1ubuntu2 all [installed]
+db5.3-util/xenial,now 5.3.28-11 amd64 [installed,upgradable to: 5.3.28-11ubuntu0.1]
+dbconfig-common/xenial,now 2.0.4ubuntu1 all [installed,automatic]
+dbconfig-mysql/xenial,now 2.0.4ubuntu1 all [installed,automatic]
+dbus/xenial-updates,now 1.10.6-1ubuntu3.3 amd64 [installed,automatic]
+dbus-x11/xenial-updates,now 1.10.6-1ubuntu3.3 amd64 [installed,automatic]
+dconf-gsettings-backend/xenial,now 0.24.0-2 amd64 [installed,automatic]
+dconf-service/xenial,now 0.24.0-2 amd64 [installed,automatic]
+debconf/xenial,now 1.5.58ubuntu1 all [installed]
+debconf-i18n/xenial,now 1.5.58ubuntu1 all [installed]
+debconf-utils/xenial,now 1.5.58ubuntu1 all [installed]
+debhelper/xenial,now 9.20160115ubuntu3 all [installed,automatic]
+debianutils/xenial,now 4.7 amd64 [installed]
+default-jre/xenial,now 2:1.8-56ubuntu2 amd64 [installed]
+default-jre-headless/xenial,now 2:1.8-56ubuntu2 amd64 [installed,automatic]
+dh-python/xenial-updates,now 2.20151103ubuntu1.1 all [installed]
+dh-strip-nondeterminism/xenial,now 0.015-1 all [installed,automatic]
+dialog/xenial,now 1.3-20160209-1 amd64 [installed]
+diffstat/xenial,now 1.61-1 amd64 [installed,automatic]
+diffutils/xenial,now 1:3.3-3 amd64 [installed]
+distro-info-data/now 0.28ubuntu0.1 all [installed,upgradable to: 0.28ubuntu0.9]
+dmsetup/xenial,now 2:1.02.110-1ubuntu10 amd64 [installed]
+dpkg/now 1.18.4ubuntu1.1 amd64 [installed,upgradable to: 1.18.4ubuntu1.5]
+dpkg-dev/xenial-updates,now 1.18.4ubuntu1.5 all [installed,automatic]
+dselect/now 1.18.4ubuntu1.1 amd64 [installed,upgradable to: 1.18.4ubuntu1.5]
+e2fslibs/xenial,now 1.42.13-1ubuntu1 amd64 [installed]
+ed/xenial,now 1.10-2 amd64 [installed]
+emacsen-common/xenial,now 2.0.8 all [installed,automatic]
+erlang/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 all [installed]
+erlang-asn1/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-base/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-common-test/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-corba/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-crypto/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-debugger/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-dev/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-dialyzer/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-diameter/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-edoc/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-eldap/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-erl-docgen/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-et/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-eunit/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-examples/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 all [installed,automatic]
+erlang-gs/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-ic/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-ic-java/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 all [installed,automatic]
+erlang-inets/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-jinterface/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 all [installed,automatic]
+erlang-megaco/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-mnesia/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-mode/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 all [installed,automatic]
+erlang-observer/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-odbc/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-os-mon/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-parsetools/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-percept/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-public-key/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-reltool/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-runtime-tools/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-snmp/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-src/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 all [installed,automatic]
+erlang-ssh/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-ssl/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-syntax-tools/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-test-server/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-tools/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-typer/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-webtool/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-wx/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+erlang-xmerl/xenial-updates,xenial-security,now 1:18.3-dfsg-1ubuntu3.1 amd64 [installed,automatic]
+expat/now 2.1.0-7ubuntu0.16.04.2 amd64 [installed,upgradable to: 2.1.0-7ubuntu0.16.04.3]
+fakeroot/xenial,now 1.20.2-1ubuntu1 amd64 [installed,automatic]
+fetchmail/xenial,now 6.3.26-2 amd64 [installed]
+file/xenial,now 1:5.25-2ubuntu1 amd64 [installed,upgradable to: 1:5.25-2ubuntu1.1]
+findutils/xenial,now 4.6.0+git+20160126-2 amd64 [installed]
+finger/xenial,now 0.17-15 amd64 [installed]
+fontconfig/xenial,now 2.11.94-0ubuntu1 amd64 [installed,upgradable to: 2.11.94-0ubuntu1.1]
+fontconfig-config/xenial,now 2.11.94-0ubuntu1 all [installed,upgradable to: 2.11.94-0ubuntu1.1]
+fonts-dejavu/xenial,now 2.35-1 all [installed]
+fonts-dejavu-core/xenial,now 2.35-1 all [installed]
+fonts-dejavu-extra/xenial,now 2.35-1 all [installed]
+fonts-freefont-ttf/xenial,now 20120503-4 all [installed]
+ftp/xenial,now 0.17-33 amd64 [installed]
+g++/xenial,now 4:5.3.1-1ubuntu1 amd64 [installed]
+g++-5/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+galera-3/unknown,now 25.3.25-xenial amd64 [installed,automatic]
+gawk/xenial,now 1:4.1.3+dfsg-0.1 amd64 [installed]
+gcc/xenial,now 4:5.3.1-1ubuntu1 amd64 [installed]
+gcc-4.8-base/xenial,now 4.8.5-4ubuntu2 amd64 [installed]
+gcc-4.9-base/xenial,now 4.9.3-13ubuntu2 amd64 [installed]
+gcc-5/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+gcc-5-base/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed]
+gcc-6-base/xenial,now 6.0.1-0ubuntu1 amd64 [installed]
+gconf-service/xenial,now 3.2.6-3ubuntu6 amd64 [installed,automatic]
+gconf-service-backend/xenial,now 3.2.6-3ubuntu6 amd64 [installed,automatic]
+gconf2/xenial,now 3.2.6-3ubuntu6 amd64 [installed,automatic]
+gconf2-common/xenial,now 3.2.6-3ubuntu6 all [installed,automatic]
+gcr/xenial,now 3.18.0-1ubuntu1 amd64 [installed,automatic]
+gdebi/xenial,now 0.9.5.7ubuntu1 all [installed]
+gdebi-core/xenial,now 0.9.5.7ubuntu1 all [installed,automatic]
+gettext/xenial,now 0.19.7-2ubuntu3 amd64 [installed,upgradable to: 0.19.7-2ubuntu3.1]
+gettext-base/xenial,now 0.19.7-2ubuntu3 amd64 [installed,upgradable to: 0.19.7-2ubuntu3.1]
+gir1.2-atk-1.0/xenial,now 2.18.0-1 amd64 [installed,automatic]
+gir1.2-freedesktop/xenial,now 1.46.0-3ubuntu1 amd64 [installed,automatic]
+gir1.2-gdkpixbuf-2.0/xenial-updates,now 2.32.2-1ubuntu1.5 amd64 [installed,automatic]
+gir1.2-glib-2.0/xenial,now 1.46.0-3ubuntu1 amd64 [installed,automatic]
+gir1.2-gtk-3.0/xenial-updates,now 3.18.9-1ubuntu3.3 amd64 [installed,automatic]
+gir1.2-pango-1.0/xenial,now 1.38.1-1 amd64 [installed,automatic]
+gir1.2-vte-2.91/xenial,now 0.42.5-1ubuntu1 amd64 [installed,automatic]
+git/xenial-updates,xenial-security,now 1:2.7.4-0ubuntu1.6 amd64 [installed]
+git-man/xenial-updates,xenial-security,now 1:2.7.4-0ubuntu1.6 all [installed,automatic]
+gksu/xenial,now 2.0.2-9ubuntu1 amd64 [installed,automatic]
+glib-networking/xenial-updates,now 2.48.2-1~ubuntu16.04.1 amd64 [installed,automatic]
+glib-networking-common/xenial-updates,now 2.48.2-1~ubuntu16.04.1 all [installed,automatic]
+glib-networking-services/xenial-updates,now 2.48.2-1~ubuntu16.04.1 amd64 [installed,automatic]
+gnome-icon-theme/xenial,now 3.12.0-1ubuntu3 all [installed,automatic]
+gnome-keyring/xenial,now 3.18.3-0ubuntu2 amd64 [installed,automatic]
+gnupg/xenial,now 1.4.20-1ubuntu3 amd64 [installed,upgradable to: 1.4.20-1ubuntu3.3]
+gpgv/xenial,now 1.4.20-1ubuntu3 amd64 [installed,upgradable to: 1.4.20-1ubuntu3.3]
+grep/xenial-updates,now 2.25-1~16.04.1 amd64 [installed]
+groff-base/xenial,now 1.22.3-7 amd64 [installed]
+gsettings-desktop-schemas/xenial,now 3.18.1-1ubuntu1 all [installed,automatic]
+gzip/xenial,now 1.6-4ubuntu1 amd64 [installed]
+hardening-includes/xenial,now 2.7ubuntu2 all [installed,automatic]
+hicolor-icon-theme/xenial-updates,now 0.15-0ubuntu1.1 all [installed,automatic]
+hostname/xenial,now 3.16ubuntu2 amd64 [installed]
+humanity-icon-theme/xenial-updates,now 0.6.10.1 all [installed,automatic]
+ifupdown/xenial,now 0.8.10ubuntu1 amd64 [installed,upgradable to: 0.8.10ubuntu1.4]
+info/xenial,now 6.1.0.dfsg.1-5 amd64 [installed]
+init-system-helpers/now 1.29ubuntu2 all [installed,upgradable to: 1.29ubuntu4]
+initramfs-tools/now 0.122ubuntu8.1 all [installed,upgradable to: 0.122ubuntu8.14]
+initramfs-tools-bin/now 0.122ubuntu8.1 amd64 [installed,upgradable to: 0.122ubuntu8.14]
+initramfs-tools-core/now 0.122ubuntu8.1 all [installed,upgradable to: 0.122ubuntu8.14]
+initscripts/xenial,now 2.88dsf-59.3ubuntu2 amd64 [installed]
+insserv/xenial,now 1.14.0-5ubuntu3 amd64 [installed]
+install-info/xenial,now 6.1.0.dfsg.1-5 amd64 [installed]
+intltool-debian/xenial,now 0.35.0+20060710.4 all [installed,automatic]
+iproute2/xenial,now 4.3.0-1ubuntu3 amd64 [installed,upgradable to: 4.3.0-1ubuntu3.16.04.4]
+iptables/xenial,now 1.6.0-2ubuntu3 amd64 [installed]
+iputils-arping/xenial,now 3:20121221-5ubuntu2 amd64 [installed]
+iputils-ping/xenial,now 3:20121221-5ubuntu2 amd64 [installed]
+iputils-tracepath/xenial,now 3:20121221-5ubuntu2 amd64 [installed]
+isc-dhcp-client/now 4.3.3-5ubuntu12.1 amd64 [installed,upgradable to: 4.3.3-5ubuntu12.10]
+isc-dhcp-common/now 4.3.3-5ubuntu12.1 amd64 [installed,upgradable to: 4.3.3-5ubuntu12.10]
+iso-codes/xenial,now 3.65-1 all [installed,automatic]
+java-common/xenial,now 0.56ubuntu2 all [installed,automatic]
+javascript-common/xenial,now 11 all [installed,automatic]
+keyboard-configuration/xenial-updates,now 1.108ubuntu15.4 all [installed,automatic]
+klibc-utils/now 2.0.4-8ubuntu1.16.04.1 amd64 [installed,upgradable to: 2.0.4-8ubuntu1.16.04.4]
+kmod/xenial,now 22-1ubuntu4 amd64 [installed,upgradable to: 22-1ubuntu5.1]
+ldap-utils/now 2.4.42+dfsg-2ubuntu3.1 amd64 [installed,upgradable to: 2.4.42+dfsg-2ubuntu3.4]
+less/xenial,now 481-2.1 amd64 [installed,upgradable to: 481-2.1ubuntu0.2]
+libacl1/xenial,now 2.2.52-3 amd64 [installed]
+libaio1/xenial,now 0.3.110-2 amd64 [installed,automatic]
+libalgorithm-diff-perl/xenial,now 1.19.03-1 all [installed,automatic]
+libalgorithm-diff-xs-perl/xenial,now 0.04-4build1 amd64 [installed,automatic]
+libalgorithm-merge-perl/xenial,now 0.08-3 all [installed,automatic]
+libapache2-mod-fastcgi/now 2.4.7~0910052141-1.2 amd64 [installed,local]
+libapache2-mod-php7.3/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libapparmor1/xenial,now 2.10.95-0ubuntu2 amd64 [installed,upgradable to: 2.10.95-0ubuntu2.10]
+libapr1/xenial,now 1.5.2-3 amd64 [installed]
+libaprutil1/xenial,now 1.5.4-1build1 amd64 [installed]
+libaprutil1-dbd-sqlite3/xenial,now 1.5.4-1build1 amd64 [installed]
+libaprutil1-ldap/xenial,now 1.5.4-1build1 amd64 [installed]
+libapt-inst2.0/now 1.2.12~ubuntu16.04.1 amd64 [installed,upgradable to: 1.2.29ubuntu0.1]
+libapt-pkg-perl/xenial,now 0.1.29build7 amd64 [installed,automatic]
+libapt-pkg5.0/now 1.2.12~ubuntu16.04.1 amd64 [installed,upgradable to: 1.2.29ubuntu0.1]
+libarchive-zip-perl/xenial-updates,xenial-security,now 1.56-2ubuntu0.1 all [installed,automatic]
+libargon2-0/xenial,now 0~20161029-1+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libasan2/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libasn1-8-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libasound2/xenial,now 1.1.0-0ubuntu1 amd64 [installed,automatic]
+libasound2-data/xenial,now 1.1.0-0ubuntu1 all [installed,automatic]
+libasprintf0v5/xenial,now 0.19.7-2ubuntu3 amd64 [installed,upgradable to: 0.19.7-2ubuntu3.1]
+libassuan0/xenial,now 2.4.2-2 amd64 [installed,automatic]
+libasyncns0/xenial,now 0.8-5build1 amd64 [installed,automatic]
+libatk-bridge2.0-0/xenial,now 2.18.1-2ubuntu1 amd64 [installed,automatic]
+libatk1.0-0/xenial,now 2.18.0-1 amd64 [installed,automatic]
+libatk1.0-data/xenial,now 2.18.0-1 all [installed,automatic]
+libatomic1/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libatspi2.0-0/xenial,now 2.18.3-4ubuntu1 amd64 [installed,automatic]
+libattr1/xenial,now 1:2.4.47-2 amd64 [installed]
+libaudit-common/xenial,now 1:2.4.5-1ubuntu2 all [installed,upgradable to: 1:2.4.5-1ubuntu2.1]
+libaudit1/xenial,now 1:2.4.5-1ubuntu2 amd64 [installed,upgradable to: 1:2.4.5-1ubuntu2.1]
+libaugeas0/xenial-updates,xenial-security,now 1.4.0-0ubuntu1.1 amd64 [installed,automatic]
+libauthen-pam-perl/xenial,now 0.16-3build2 amd64 [installed]
+libauthen-sasl-perl/xenial,now 2.1600-1 all [installed,automatic]
+libavahi-client3/xenial,now 0.6.32~rc+dfsg-1ubuntu2 amd64 [installed,upgradable to: 0.6.32~rc+dfsg-1ubuntu2.3]
+libavahi-common-data/xenial,now 0.6.32~rc+dfsg-1ubuntu2 amd64 [installed,upgradable to: 0.6.32~rc+dfsg-1ubuntu2.3]
+libavahi-common3/xenial,now 0.6.32~rc+dfsg-1ubuntu2 amd64 [installed,upgradable to: 0.6.32~rc+dfsg-1ubuntu2.3]
+libbind9-140/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libblkid1/now 2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 2.27.1-6ubuntu3.6]
+libboost-filesystem1.58.0/xenial-updates,now 1.58.0+dfsg-5ubuntu3.1 amd64 [installed,automatic]
+libboost-system1.58.0/xenial-updates,now 1.58.0+dfsg-5ubuntu3.1 amd64 [installed,automatic]
+libbsd0/xenial,now 0.8.2-1 amd64 [installed]
+libbz2-1.0/xenial,now 1.0.6-8 amd64 [installed]
+libc-bin/xenial,now 2.23-0ubuntu3 amd64 [installed,upgradable to: 2.23-0ubuntu10]
+libc-dev-bin/xenial-updates,xenial-security,now 2.23-0ubuntu10 amd64 [installed,automatic]
+libc6/xenial-updates,xenial-security,now 2.23-0ubuntu10 amd64 [installed]
+libc6-dev/xenial-updates,xenial-security,now 2.23-0ubuntu10 amd64 [installed,automatic]
+libcairo-gobject2/xenial,now 1.14.6-1 amd64 [installed,automatic]
+libcairo-perl/xenial,xenial-updates,now 1.106-1build1 amd64 [installed,automatic]
+libcairo2/xenial,now 1.14.6-1 amd64 [installed,automatic]
+libcap-ng0/xenial,now 0.7.7-1 amd64 [installed]
+libcap2/xenial,now 1:2.24-12 amd64 [installed]
+libcap2-bin/xenial,now 1:2.24-12 amd64 [installed]
+libcapnp-0.5.3/xenial-updates,xenial-security,now 0.5.3-2ubuntu1.1 amd64 [installed,automatic]
+libcc1-0/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libcgi-fast-perl/xenial,now 1:2.10-1 all [installed,automatic]
+libcgi-pm-perl/xenial,now 4.26-1 all [installed,automatic]
+libcilkrts5/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libclass-accessor-perl/xenial,now 0.34-1 all [installed,automatic]
+libclone-perl/xenial,now 0.38-1build1 amd64 [installed,automatic]
+libcolord2/xenial,now 1.2.12-1ubuntu1 amd64 [installed,automatic]
+libcolorhug2/xenial,now 1.2.12-1ubuntu1 amd64 [installed,automatic]
+libcomerr2/xenial,now 1.42.13-1ubuntu1 amd64 [installed]
+libcrack2/xenial,now 2.9.2-1build2 amd64 [installed,upgradable to: 2.9.2-1ubuntu1]
+libcroco3/xenial,now 0.6.11-1 amd64 [installed]
+libcryptsetup4/xenial,now 2:1.6.6-5ubuntu2 amd64 [installed,upgradable to: 2:1.6.6-5ubuntu2.1]
+libcups2/xenial,now 2.1.3-4 amd64 [installed,upgradable to: 2.1.3-4ubuntu0.7]
+libcurl3/now 7.47.0-1ubuntu2.11 amd64 [installed,upgradable to: 7.47.0-1ubuntu2.12]
+libcurl3-gnutls/now 7.47.0-1ubuntu2.11 amd64 [installed,upgradable to: 7.47.0-1ubuntu2.12]
+libdata-alias-perl/xenial,now 1.20-1build1 amd64 [installed,automatic]
+libdatrie1/xenial,now 0.2.10-2 amd64 [installed,automatic]
+libdb5.3/xenial,now 5.3.28-11 amd64 [installed,upgradable to: 5.3.28-11ubuntu0.1]
+libdbd-mysql-perl/xenial-updates,xenial-security,now 4.033-1ubuntu0.1 amd64 [installed,automatic]
+libdbi-perl/xenial,now 1.634-1build1 amd64 [installed,automatic]
+libdbus-1-3/xenial-updates,now 1.10.6-1ubuntu3.3 amd64 [installed]
+libdbus-glib-1-2/xenial,now 0.106-1 amd64 [installed,automatic]
+libdconf1/xenial,now 0.24.0-2 amd64 [installed,automatic]
+libdebconfclient0/xenial,now 0.198ubuntu1 amd64 [installed]
+libdevmapper1.02.1/xenial,now 2:1.02.110-1ubuntu10 amd64 [installed]
+libdigest-hmac-perl/xenial,now 1.03+dfsg-1 all [installed,automatic]
+libdns-export162/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libdns162/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libdpkg-perl/xenial-updates,now 1.18.4ubuntu1.5 all [installed,automatic]
+libdrm-amdgpu1/xenial-updates,now 2.4.91-2~16.04.1 amd64 [installed,automatic]
+libdrm-common/xenial-updates,now 2.4.91-2~16.04.1 all [installed,automatic]
+libdrm-intel1/now 2.4.67-1ubuntu0.16.04.1 amd64 [installed,upgradable to: 2.4.91-2~16.04.1]
+libdrm-nouveau2/xenial-updates,now 2.4.91-2~16.04.1 amd64 [installed,automatic]
+libdrm-radeon1/now 2.4.67-1ubuntu0.16.04.1 amd64 [installed,upgradable to: 2.4.91-2~16.04.1]
+libdrm2/xenial-updates,now 2.4.91-2~16.04.1 amd64 [installed]
+libedit2/xenial,now 3.1-20150325-1ubuntu2 amd64 [installed]
+libegl1-mesa/xenial-updates,now 18.0.5-0ubuntu0~16.04.1 amd64 [installed,automatic]
+libelf1/xenial-updates,xenial-security,now 0.165-3ubuntu1.1 amd64 [installed,automatic]
+libemail-valid-perl/xenial,now 1.198-1 all [installed,automatic]
+libencode-locale-perl/xenial,now 1.05-1 all [installed,automatic]
+libepoxy0/xenial-updates,now 1.3.1-1ubuntu0.16.04.2 amd64 [installed,automatic]
+liberror-perl/xenial,now 0.17-1.2 all [installed,automatic]
+libestr0/xenial,now 0.1.10-1 amd64 [installed]
+libevdev2/xenial,now 1.4.6+dfsg-1 amd64 [installed,automatic]
+libexif12/xenial,now 0.6.21-2 amd64 [installed,automatic]
+libexpat1/xenial-updates,xenial-security,now 2.1.0-7ubuntu0.16.04.3 amd64 [installed]
+libexpat1-dev/xenial-updates,xenial-security,now 2.1.0-7ubuntu0.16.04.3 amd64 [installed,automatic]
+libexporter-tiny-perl/xenial,now 0.042-1 all [installed,automatic]
+libfakeroot/xenial,now 1.20.2-1ubuntu1 amd64 [installed,automatic]
+libfcgi-perl/xenial,now 0.77-1build1 amd64 [installed,automatic]
+libfdisk1/now 2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 2.27.1-6ubuntu3.6]
+libffi-dev/xenial,now 3.2.1-4 amd64 [installed]
+libffi6/xenial,now 3.2.1-4 amd64 [installed]
+libfile-basedir-perl/xenial,now 0.07-1 all [installed,automatic]
+libfile-copy-recursive-perl/xenial,now 0.38-1 all [installed]
+libfile-fcntllock-perl/xenial,now 0.22-3 amd64 [installed,automatic]
+libfile-stripnondeterminism-perl/xenial,now 0.015-1 all [installed,automatic]
+libflac8/xenial,now 1.3.1-4 amd64 [installed,automatic]
+libfontconfig1/xenial,now 2.11.94-0ubuntu1 amd64 [installed,upgradable to: 2.11.94-0ubuntu1.1]
+libfontenc1/xenial,now 1:1.1.3-1 amd64 [installed,automatic]
+libfreetype6/xenial,now 2.6.1-0.1ubuntu2 amd64 [installed,upgradable to: 2.6.1-0.1ubuntu2.3]
+libgbm1/xenial-updates,now 18.0.5-0ubuntu0~16.04.1 amd64 [installed,automatic]
+libgcc-5-dev/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libgcc1/xenial,now 1:6.0.1-0ubuntu1 amd64 [installed]
+libgck-1-0/xenial,now 3.18.0-1ubuntu1 amd64 [installed,automatic]
+libgconf-2-4/xenial,now 3.2.6-3ubuntu6 amd64 [installed,automatic]
+libgcr-3-common/xenial,now 3.18.0-1ubuntu1 all [installed,automatic]
+libgcr-base-3-1/xenial,now 3.18.0-1ubuntu1 amd64 [installed,automatic]
+libgcr-ui-3-1/xenial,now 3.18.0-1ubuntu1 amd64 [installed,automatic]
+libgcrypt20/xenial,now 1.6.5-2 amd64 [installed,upgradable to: 1.6.5-2ubuntu0.5]
+libgd3/xenial,now 2.2.5-5+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libgdbm3/xenial,now 1.8.3-13.1 amd64 [installed]
+libgdk-pixbuf2.0-0/xenial-updates,now 2.32.2-1ubuntu1.5 amd64 [installed,automatic]
+libgdk-pixbuf2.0-common/xenial-updates,now 2.32.2-1ubuntu1.5 all [installed,automatic]
+libgeoip1/xenial,now 1.6.9-1 amd64 [installed]
+libgif7/xenial-updates,now 5.1.4-0.3~16.04 amd64 [installed,automatic]
+libgirepository-1.0-1/xenial,now 1.46.0-3ubuntu1 amd64 [installed,automatic]
+libgksu2-0/xenial,now 2.0.13~pre1-6ubuntu8 amd64 [installed,automatic]
+libgl1-mesa-dri/xenial-updates,now 18.0.5-0ubuntu0~16.04.1 amd64 [installed,automatic]
+libgl1-mesa-glx/xenial-updates,now 18.0.5-0ubuntu0~16.04.1 amd64 [installed,automatic]
+libglapi-mesa/xenial-updates,now 18.0.5-0ubuntu0~16.04.1 amd64 [installed,automatic]
+libglib-perl/xenial,xenial-updates,now 3:1.320-2 amd64 [installed,automatic]
+libglib2.0-0/now 2.48.1-1~ubuntu16.04.1 amd64 [installed,upgradable to: 2.48.2-0ubuntu4.1]
+libglu1-mesa/xenial,now 9.0.0-2.1 amd64 [installed,automatic]
+libgmp10/xenial,now 2:6.1.0+dfsg-2 amd64 [installed]
+libgnome-keyring-common/xenial,now 3.12.0-1build1 all [installed,automatic]
+libgnome-keyring0/xenial,now 3.12.0-1build1 amd64 [installed,automatic]
+libgnutls-openssl27/now 3.4.10-4ubuntu1.1 amd64 [installed,upgradable to: 3.4.10-4ubuntu1.4]
+libgnutls30/now 3.4.10-4ubuntu1.1 amd64 [installed,upgradable to: 3.4.10-4ubuntu1.4]
+libgomp1/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed]
+libgpg-error0/xenial,now 1.21-2ubuntu1 amd64 [installed]
+libgphoto2-6/xenial,now 2.5.9-3 amd64 [installed,automatic]
+libgphoto2-l10n/xenial,now 2.5.9-3 all [installed,automatic]
+libgphoto2-port12/xenial,now 2.5.9-3 amd64 [installed,automatic]
+libgpm2/xenial,now 1.20.4-6.1 amd64 [installed]
+libgraphite2-3/xenial-updates,xenial-security,now 1.3.10-0ubuntu0.16.04.1 amd64 [installed,automatic]
+libgssapi-krb5-2/xenial,now 1.13.2+dfsg-5 amd64 [installed,upgradable to: 1.13.2+dfsg-5ubuntu2.1]
+libgssapi3-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libgtk-3-0/xenial-updates,now 3.18.9-1ubuntu3.3 amd64 [installed,automatic]
+libgtk-3-bin/xenial-updates,now 3.18.9-1ubuntu3.3 amd64 [installed,automatic]
+libgtk-3-common/xenial-updates,now 3.18.9-1ubuntu3.3 all [installed,automatic]
+libgtk2-perl/xenial,xenial-updates,now 2:1.2498-1 amd64 [installed,automatic]
+libgtk2.0-0/xenial-updates,now 2.24.30-1ubuntu1.16.04.2 amd64 [installed,automatic]
+libgtk2.0-bin/xenial-updates,now 2.24.30-1ubuntu1.16.04.2 amd64 [installed,automatic]
+libgtk2.0-common/xenial-updates,now 2.24.30-1ubuntu1.16.04.2 all [installed,automatic]
+libgtop-2.0-10/xenial,now 2.32.0-1 amd64 [installed,automatic]
+libgtop2-common/xenial,now 2.32.0-1 all [installed,automatic]
+libgudev-1.0-0/xenial,now 1:230-2 amd64 [installed,automatic]
+libgusb2/xenial,now 0.2.9-0ubuntu1 amd64 [installed,automatic]
+libharfbuzz0b/xenial-updates,xenial-security,now 1.0.1-1ubuntu0.1 amd64 [installed,automatic]
+libhcrypto4-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libheimbase1-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libheimntlm0-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libhogweed4/xenial,now 3.2-1 amd64 [installed,upgradable to: 3.2-1ubuntu0.16.04.1]
+libhtml-parser-perl/xenial,now 3.72-1 amd64 [installed,automatic]
+libhtml-tagset-perl/xenial,now 3.20-2 all [installed,automatic]
+libhtml-template-perl/xenial,now 2.95-2 all [installed,automatic]
+libhttp-date-perl/xenial,now 6.02-1 all [installed,automatic]
+libhttp-message-perl/xenial,now 6.11-1 all [installed,automatic]
+libhx509-5-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libice6/xenial,now 2:1.0.9-1 amd64 [installed,automatic]
+libicu55/xenial,now 55.1-7 amd64 [installed,upgradable to: 55.1-7ubuntu0.4]
+libidn11/xenial,now 1.32-3ubuntu1 amd64 [installed,upgradable to: 1.32-3ubuntu1.2]
+libieee1284-3/xenial,now 0.2.11-12 amd64 [installed,automatic]
+libio-html-perl/xenial,now 1.001-1 all [installed,automatic]
+libio-pty-perl/xenial,now 1:1.08-1.1build1 amd64 [installed,automatic]
+libio-socket-inet6-perl/xenial,now 2.72-2 all [installed,automatic]
+libio-socket-ssl-perl/xenial,now 2.024-1 all [installed,automatic]
+libio-string-perl/xenial,now 1.08-3 all [installed,automatic]
+libipc-run-perl/xenial,now 0.94-1 all [installed,automatic]
+libipc-system-simple-perl/xenial,now 1.25-3 all [installed,automatic]
+libirs141/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libisc-export160/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libisc160/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libisccc140/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libisccfg140/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+libisl15/xenial,now 0.16.1-1 amd64 [installed,automatic]
+libitm1/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libjbig0/xenial,now 2.1-3.1+deb.sury.org~xenial+1 amd64 [installed,automatic]
+libjpeg-dev/xenial,now 8c-2ubuntu8 amd64 [installed]
+libjpeg-turbo8/xenial-updates,xenial-security,now 1.4.2-0ubuntu3.1 amd64 [installed,automatic]
+libjpeg-turbo8-dev/xenial-updates,xenial-security,now 1.4.2-0ubuntu3.1 amd64 [installed,automatic]
+libjpeg8/xenial,now 8c-2ubuntu8 amd64 [installed,automatic]
+libjpeg8-dev/xenial,now 8c-2ubuntu8 amd64 [installed,automatic]
+libjs-jquery/xenial,now 1.11.3+dfsg-4 all [installed,automatic]
+libjs-jquery-metadata/xenial,now 10-2ubuntu2 all [installed,automatic]
+libjs-jquery-tablesorter/xenial,now 10-2ubuntu2 all [installed,automatic]
+libjs-sphinxdoc/xenial-updates,now 1.3.6-2ubuntu1.2 all [installed,automatic]
+libjs-underscore/xenial,now 1.7.0~dfsg-1ubuntu1 all [installed,automatic]
+libjson-c2/xenial,now 0.11-4ubuntu2 amd64 [installed]
+libjson-glib-1.0-0/xenial,now 1.1.2-0ubuntu1 amd64 [installed,automatic]
+libjson-glib-1.0-common/xenial,now 1.1.2-0ubuntu1 all [installed,automatic]
+libk5crypto3/xenial,now 1.13.2+dfsg-5 amd64 [installed,upgradable to: 1.13.2+dfsg-5ubuntu2.1]
+libkeyutils1/xenial,now 1.5.9-8ubuntu1 amd64 [installed]
+libklibc/now 2.0.4-8ubuntu1.16.04.1 amd64 [installed,upgradable to: 2.0.4-8ubuntu1.16.04.4]
+libkmod2/xenial,now 22-1ubuntu4 amd64 [installed,upgradable to: 22-1ubuntu5.1]
+libkrb5-26-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libkrb5-3/xenial,now 1.13.2+dfsg-5 amd64 [installed,upgradable to: 1.13.2+dfsg-5ubuntu2.1]
+libkrb5support0/xenial,now 1.13.2+dfsg-5 amd64 [installed,upgradable to: 1.13.2+dfsg-5ubuntu2.1]
+liblcms2-2/xenial-updates,xenial-security,now 2.6-3ubuntu2.1 amd64 [installed,automatic]
+libldap-2.4-2/now 2.4.42+dfsg-2ubuntu3.1 amd64 [installed,upgradable to: 2.4.42+dfsg-2ubuntu3.4]
+libldb1/xenial,now 2:1.1.24-1ubuntu3 amd64 [installed]
+liblist-moreutils-perl/xenial,now 0.413-1build1 amd64 [installed,automatic]
+libllvm6.0/xenial-updates,now 1:6.0-1ubuntu2~16.04.1 amd64 [installed,automatic]
+liblocale-gettext-perl/xenial,now 1.07-1build1 amd64 [installed]
+liblockfile-bin/xenial,now 1.09-6ubuntu1 amd64 [installed]
+liblockfile1/xenial,now 1.09-6ubuntu1 amd64 [installed]
+liblsan0/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libltdl-dev/xenial,now 2.4.6-0.1 amd64 [installed,automatic]
+libltdl7/xenial,now 2.4.6-0.1 amd64 [installed]
+liblua5.1-0/xenial,now 5.1.5-8ubuntu1 amd64 [installed]
+liblwp-mediatypes-perl/xenial,now 6.02-1 all [installed,automatic]
+liblwres141/now 1:9.10.3.dfsg.P4-8ubuntu1 amd64 [installed,upgradable to: 1:9.10.3.dfsg.P4-8ubuntu1.11]
+liblz4-1/xenial,now 0.0~r131-2ubuntu2 amd64 [installed]
+liblzma5/xenial,now 5.1.1alpha+20120614-2ubuntu2 amd64 [installed]
+libmagic1/xenial,now 1:5.25-2ubuntu1 amd64 [installed,upgradable to: 1:5.25-2ubuntu1.1]
+libmail-sendmail-perl/xenial,now 0.79.16-1 all [installed,automatic]
+libmailtools-perl/xenial,now 2.13-1 all [installed,automatic]
+libmcrypt4/xenial,now 2.5.8-3.3 amd64 [installed,automatic]
+libmirclient9/xenial-updates,xenial-security,now 0.26.3+16.04.20170605-0ubuntu1.1 amd64 [installed,automatic]
+libmircommon7/xenial-updates,xenial-security,now 0.26.3+16.04.20170605-0ubuntu1.1 amd64 [installed,automatic]
+libmircore1/xenial-updates,xenial-security,now 0.26.3+16.04.20170605-0ubuntu1.1 amd64 [installed,automatic]
+libmirprotobuf3/xenial-updates,xenial-security,now 0.26.3+16.04.20170605-0ubuntu1.1 amd64 [installed,automatic]
+libmnl0/xenial,now 1.0.3-5 amd64 [installed]
+libmount1/now 2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 2.27.1-6ubuntu3.6]
+libmpc3/xenial,now 1.0.3-1 amd64 [installed,automatic]
+libmpdec2/xenial,now 2.4.2-1 amd64 [installed]
+libmpfr4/xenial,now 3.1.4-1 amd64 [installed]
+libmpx0/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libmtdev1/xenial,now 1.1.5-1ubuntu2 amd64 [installed,automatic]
+libmysqlclient20/xenial-updates,xenial-security,now 5.7.25-0ubuntu0.16.04.2 amd64 [installed,automatic]
+libncurses5/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
+libncursesw5/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
+libnet-dns-perl/xenial,now 0.81-2build1 amd64 [installed,automatic]
+libnet-domain-tld-perl/xenial,now 1.73-1 all [installed,automatic]
+libnet-ip-perl/xenial,now 1.26-1 all [installed,automatic]
+libnet-smtp-ssl-perl/xenial,now 1.03-1 all [installed,automatic]
+libnet-ssleay-perl/xenial,now 1.72-1build1 amd64 [installed,automatic]
+libnettle6/xenial,now 3.2-1 amd64 [installed,upgradable to: 3.2-1ubuntu0.16.04.1]
+libnfnetlink0/xenial,now 1.0.1-3 amd64 [installed]
+libnih-dbus1/xenial,now 1.0.3-4.3ubuntu1 amd64 [installed]
+libnih1/xenial,now 1.0.3-4.3ubuntu1 amd64 [installed]
+libnl-3-200/xenial,now 3.2.27-1 amd64 [installed,upgradable to: 3.2.27-1ubuntu0.16.04.1]
+libnl-genl-3-200/xenial,now 3.2.27-1 amd64 [installed,upgradable to: 3.2.27-1ubuntu0.16.04.1]
+libnotify4/xenial,now 0.7.6-2svn1 amd64 [installed,automatic]
+libnspr4/xenial-updates,xenial-security,now 2:4.13.1-0ubuntu0.16.04.1 amd64 [installed,automatic]
+libnss3/xenial-updates,xenial-security,now 2:3.28.4-0ubuntu0.16.04.4 amd64 [installed,automatic]
+libnss3-nssdb/xenial-updates,xenial-security,now 2:3.28.4-0ubuntu0.16.04.4 all [installed,automatic]
+libnuma1/xenial-updates,xenial-security,now 2.0.11-1ubuntu1.1 amd64 [installed,automatic]
+libodbc1/xenial,now 2.3.1-4.1 amd64 [installed]
+libogg0/xenial,now 1.3.2-1 amd64 [installed,automatic]
+libp11-kit-gnome-keyring/xenial,now 3.18.3-0ubuntu2 amd64 [installed,automatic]
+libp11-kit0/xenial-updates,now 0.23.2-5~ubuntu16.04.1 amd64 [installed]
+libpam-gnome-keyring/xenial,now 3.18.3-0ubuntu2 amd64 [installed,automatic]
+libpam-modules/xenial,now 1.1.8-3.2ubuntu2 amd64 [installed,upgradable to: 1.1.8-3.2ubuntu2.1]
+libpam-modules-bin/xenial,now 1.1.8-3.2ubuntu2 amd64 [installed,upgradable to: 1.1.8-3.2ubuntu2.1]
+libpam-runtime/xenial,now 1.1.8-3.2ubuntu2 all [installed,upgradable to: 1.1.8-3.2ubuntu2.1]
+libpam-systemd/xenial-updates,xenial-security,now 229-4ubuntu21.15 amd64 [installed,automatic]
+libpam0g/xenial,now 1.1.8-3.2ubuntu2 amd64 [installed,upgradable to: 1.1.8-3.2ubuntu2.1]
+libpango-1.0-0/xenial,now 1.38.1-1 amd64 [installed,automatic]
+libpango-perl/xenial,xenial-updates,now 1.227-1 amd64 [installed,automatic]
+libpangocairo-1.0-0/xenial,now 1.38.1-1 amd64 [installed,automatic]
+libpangoft2-1.0-0/xenial,now 1.38.1-1 amd64 [installed,automatic]
+libpangoxft-1.0-0/xenial,now 1.38.1-1 amd64 [installed,automatic]
+libpaper1/xenial,now 1.1.24+nmu4ubuntu1 amd64 [installed]
+libparse-debianchangelog-perl/xenial,now 1.2.0-8 all [installed,automatic]
+libpcap0.8/xenial,now 1.7.4-2 amd64 [installed]
+libpci3/xenial,now 1:3.3.1-1.1ubuntu1 amd64 [installed,upgradable to: 1:3.3.1-1.1ubuntu1.2]
+libpciaccess0/xenial,now 0.13.4-1 amd64 [installed]
+libpcre2-16-0/xenial,now 10.31-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libpcre2-32-0/xenial,now 10.31-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libpcre2-8-0/xenial,now 10.31-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libpcre2-dev/xenial,now 10.31-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libpcre2-posix0/xenial,now 10.31-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libpcre3/xenial,now 2:8.38-3.1 amd64 [installed,upgradable to: 2:8.42-1+ubuntu16.04.1+deb.sury.org+1]
+libpcsclite1/xenial-updates,xenial-security,now 1.8.14-1ubuntu1.16.04.1 amd64 [installed,automatic]
+libperl5.22/xenial,now 5.22.1-9 amd64 [installed,upgradable to: 5.22.1-9ubuntu0.6]
+libperlio-gzip-perl/xenial,now 0.19-1build1 amd64 [installed,automatic]
+libpipeline1/xenial,now 1.4.1-2 amd64 [installed]
+libpixman-1-0/xenial,now 0.33.6-1 amd64 [installed,automatic]
+libplymouth4/now 0.9.2-3ubuntu13.1 amd64 [installed,upgradable to: 0.9.2-3ubuntu13.5]
+libpng12-0/xenial-updates,xenial-security,now 1.2.54-1ubuntu1.1 amd64 [installed]
+libpng12-dev/xenial-updates,xenial-security,now 1.2.54-1ubuntu1.1 amd64 [installed]
+libpolkit-agent-1-0/xenial-updates,xenial-security,now 0.105-14.1ubuntu0.4 amd64 [installed,automatic]
+libpolkit-backend-1-0/xenial-updates,xenial-security,now 0.105-14.1ubuntu0.4 amd64 [installed,automatic]
+libpolkit-gobject-1-0/xenial-updates,xenial-security,now 0.105-14.1ubuntu0.4 amd64 [installed,automatic]
+libpopt0/xenial,now 1.16-10 amd64 [installed]
+libprocps4/xenial,now 2:3.3.10-4ubuntu2 amd64 [installed,upgradable to: 2:3.3.10-4ubuntu2.4]
+libprotobuf-lite9v5/xenial,now 2.6.1-1.3 amd64 [installed,automatic]
+libproxy1v5/xenial,now 0.4.11-5ubuntu1 amd64 [installed,automatic]
+libpulse0/xenial-updates,now 1:8.0-0ubuntu3.10 amd64 [installed,automatic]
+libpython-all-dev/xenial-updates,now 2.7.12-1~16.04 amd64 [installed,automatic]
+libpython-dev/xenial-updates,now 2.7.12-1~16.04 amd64 [installed,automatic]
+libpython-stdlib/xenial-updates,now 2.7.12-1~16.04 amd64 [installed]
+libpython2.7/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed]
+libpython2.7-dev/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,automatic]
+libpython2.7-minimal/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed]
+libpython2.7-stdlib/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed]
+libpython3-stdlib/xenial,now 3.5.1-3 amd64 [installed]
+libpython3.5/now 3.5.2-2~16.01 amd64 [installed,upgradable to: 3.5.2-2ubuntu0~16.04.5]
+libpython3.5-minimal/now 3.5.2-2~16.01 amd64 [installed,upgradable to: 3.5.2-2ubuntu0~16.04.5]
+libpython3.5-stdlib/now 3.5.2-2~16.01 amd64 [installed,upgradable to: 3.5.2-2ubuntu0~16.04.5]
+libquadmath0/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libreadline5/xenial,now 5.2+dfsg-3build1 amd64 [installed,automatic]
+libreadline6/xenial,now 6.3-8ubuntu2 amd64 [installed]
+librest-0.7-0/xenial,now 0.7.93-1 amd64 [installed,automatic]
+libroken18-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+librsvg2-2/xenial,now 2.40.13-3 amd64 [installed,automatic]
+librsvg2-common/xenial,now 2.40.13-3 amd64 [installed,automatic]
+librtmp1/xenial-updates,xenial-security,now 2.4+20151223.gitfa8646d-1ubuntu0.1 amd64 [installed,automatic]
+libsane/xenial-updates,now 1.0.25+git20150528-1ubuntu2.16.04.1 amd64 [installed,automatic]
+libsane-common/xenial-updates,now 1.0.25+git20150528-1ubuntu2.16.04.1 all [installed,automatic]
+libsasl2-2/xenial,now 2.1.26.dfsg1-14build1 amd64 [installed,upgradable to: 2.1.26.dfsg1-14ubuntu0.1]
+libsasl2-modules-db/xenial,now 2.1.26.dfsg1-14build1 amd64 [installed,upgradable to: 2.1.26.dfsg1-14ubuntu0.1]
+libsctp1/xenial,now 1.0.16+dfsg-3 amd64 [installed,automatic]
+libseccomp2/xenial,now 2.2.3-3ubuntu3 amd64 [installed,upgradable to: 2.3.1-2.1ubuntu2~16.04.1]
+libsecret-1-0/xenial,now 0.18.4-1ubuntu2 amd64 [installed,automatic]
+libsecret-common/xenial,now 0.18.4-1ubuntu2 all [installed,automatic]
+libselinux1/xenial,now 2.4-3build2 amd64 [installed]
+libsemanage-common/xenial,now 2.3-1build3 all [installed]
+libsemanage1/xenial,now 2.3-1build3 amd64 [installed]
+libsensors4/xenial,now 1:3.4.0-2 amd64 [installed]
+libsepol1/xenial,now 2.4-2 amd64 [installed]
+libsigsegv2/xenial,now 2.10-4 amd64 [installed]
+libslang2/xenial,now 2.3.0-2ubuntu1 amd64 [installed,upgradable to: 2.3.0-2ubuntu1.1]
+libsm6/xenial,now 2:1.2.2-1 amd64 [installed,automatic]
+libsmartcols1/now 2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 2.27.1-6ubuntu3.6]
+libsndfile1/xenial-updates,xenial-security,now 1.0.25-10ubuntu0.16.04.1 amd64 [installed,automatic]
+libsnmp-base/xenial,now 5.7.3+dfsg-1ubuntu4 all [installed,upgradable to: 5.7.3+dfsg-1ubuntu4.2]
+libsnmp30/xenial,now 5.7.3+dfsg-1ubuntu4 amd64 [installed,upgradable to: 5.7.3+dfsg-1ubuntu4.2]
+libsocket6-perl/xenial,now 0.25-1build2 amd64 [installed,automatic]
+libsodium23/xenial,now 1.0.17-0.1+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libsoup-gnome2.4-1/xenial-updates,xenial-security,now 2.52.2-1ubuntu0.3 amd64 [installed,automatic]
+libsoup2.4-1/xenial-updates,xenial-security,now 2.52.2-1ubuntu0.3 amd64 [installed,automatic]
+libsqlite3-0/xenial,now 3.11.0-1ubuntu1 amd64 [installed]
+libssh2-1/xenial-updates,xenial-security,now 1.5.0-2ubuntu0.1 amd64 [installed,automatic]
+libssl-dev/xenial,now 1.1.1a-2+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+libssl1.0.0/now 1.0.2g-1ubuntu4.1 amd64 [installed,upgradable to: 1.0.2g-1ubuntu4.14]
+libssl1.1/xenial,now 1.1.1a-2+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libstartup-notification0/xenial,now 0.12-4build1 amd64 [installed,automatic]
+libstdc++-5-dev/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libstdc++6/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed]
+libsub-name-perl/xenial,now 0.14-1build1 amd64 [installed,automatic]
+libsys-hostname-long-perl/xenial,now 1.5-1 all [installed,automatic]
+libsystemd0/xenial-updates,xenial-security,now 229-4ubuntu21.15 amd64 [installed]
+libtalloc2/xenial,now 2.1.5-2 amd64 [installed]
+libtasn1-6/now 4.7-3ubuntu0.16.04.1 amd64 [installed,upgradable to: 4.7-3ubuntu0.16.04.3]
+libtcl8.6/xenial,now 8.6.5+dfsg-2 amd64 [installed,automatic]
+libtdb1/xenial,now 1.3.8-2 amd64 [installed]
+libterm-readkey-perl/xenial,now 2.33-1build1 amd64 [installed,automatic]
+libtevent0/xenial-updates,xenial-security,now 0.9.28-0ubuntu0.16.04.1 amd64 [installed]
+libtext-charwidth-perl/xenial,now 0.04-7build5 amd64 [installed]
+libtext-iconv-perl/xenial,now 1.7-5build4 amd64 [installed]
+libtext-levenshtein-perl/xenial,now 0.13-1 all [installed,automatic]
+libtext-wrapi18n-perl/xenial,now 0.06-7.1 all [installed]
+libthai-data/xenial,now 0.1.24-2 all [installed,automatic]
+libthai0/xenial,now 0.1.24-2 amd64 [installed,automatic]
+libtiff5/xenial-updates,xenial-security,now 4.0.6-1ubuntu0.5 amd64 [installed,automatic]
+libtimedate-perl/xenial,now 2.3000-2 all [installed,automatic]
+libtinfo5/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
+libtirpc1/xenial,now 0.2.5-1 amd64 [installed,upgradable to: 0.2.5-1ubuntu0.1]
+libtk8.6/xenial,now 8.6.5-1 amd64 [installed,automatic]
+libtool/xenial,now 2.4.6-0.1 all [installed,automatic]
+libtsan0/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libtxc-dxtn-s2tc0/xenial,now 0~git20131104-1.1 amd64 [installed,automatic]
+libubsan0/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,automatic]
+libudev1/now 229-4ubuntu7 amd64 [installed,upgradable to: 229-4ubuntu21.15]
+libunistring0/xenial,now 0.9.3-5.2ubuntu1 amd64 [installed]
+liburi-perl/xenial,now 1.71-1 all [installed,automatic]
+libusb-0.1-4/xenial,now 2:0.1.12-28 amd64 [installed]
+libusb-1.0-0/xenial,now 2:1.0.20-1 amd64 [installed,automatic]
+libustr-1.0-1/xenial,now 1.0.4-5 amd64 [installed]
+libutempter0/xenial,now 1.1.6-3 amd64 [installed,automatic]
+libuuid1/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
+libvorbis0a/xenial-updates,xenial-security,now 1.3.5-3ubuntu0.2 amd64 [installed,automatic]
+libvorbisenc2/xenial-updates,xenial-security,now 1.3.5-3ubuntu0.2 amd64 [installed,automatic]
+libvte-2.91-0/xenial,now 0.42.5-1ubuntu1 amd64 [installed,automatic]
+libvte-2.91-common/xenial,now 0.42.5-1ubuntu1 all [installed,automatic]
+libwayland-client0/xenial-updates,xenial-security,now 1.12.0-1~ubuntu16.04.3 amd64 [installed,automatic]
+libwayland-cursor0/xenial-updates,xenial-security,now 1.12.0-1~ubuntu16.04.3 amd64 [installed,automatic]
+libwayland-egl1-mesa/xenial-updates,now 18.0.5-0ubuntu0~16.04.1 amd64 [installed,automatic]
+libwayland-server0/xenial-updates,xenial-security,now 1.12.0-1~ubuntu16.04.3 amd64 [installed,automatic]
+libwbclient0/now 2:4.3.9+dfsg-0ubuntu0.16.04.2 amd64 [installed,upgradable to: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+libwebp6/xenial,now 0.6.0-4+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+libwind0-heimdal/xenial,now 1.7~git20150920+dfsg-4ubuntu1 amd64 [installed,upgradable to: 1.7~git20150920+dfsg-4ubuntu1.16.04.1]
+libwrap0/xenial,now 7.6.q-25 amd64 [installed]
+libwxbase3.0-0v5/xenial-updates,now 3.0.2+dfsg-1.3ubuntu0.1 amd64 [installed,automatic]
+libwxgtk3.0-0v5/xenial-updates,now 3.0.2+dfsg-1.3ubuntu0.1 amd64 [installed,automatic]
+libx11-6/xenial-updates,xenial-security,now 2:1.6.3-1ubuntu2.1 amd64 [installed,automatic]
+libx11-data/xenial-updates,xenial-security,now 2:1.6.3-1ubuntu2.1 all [installed,automatic]
+libx11-xcb1/xenial-updates,xenial-security,now 2:1.6.3-1ubuntu2.1 amd64 [installed,automatic]
+libxau6/xenial,now 1:1.0.8-1 amd64 [installed,automatic]
+libxaw7/xenial,now 2:1.0.13-1 amd64 [installed,automatic]
+libxcb-dri2-0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-dri3-0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-glx0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-present0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-render0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-shape0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-shm0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-sync1/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb-util1/xenial,now 0.4.0-0ubuntu3 amd64 [installed,automatic]
+libxcb-xfixes0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcb1/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
+libxcomposite1/xenial,now 1:0.4.4-1 amd64 [installed,automatic]
+libxcursor1/xenial-updates,xenial-security,now 1:1.1.14-1ubuntu0.16.04.2 amd64 [installed,automatic]
+libxdamage1/xenial,now 1:1.1.4-2 amd64 [installed,automatic]
+libxdmcp6/xenial,now 1:1.1.2-1.1 amd64 [installed,automatic]
+libxext6/xenial,now 2:1.3.3-1 amd64 [installed,automatic]
+libxfixes3/xenial,now 1:5.0.1-2 amd64 [installed,automatic]
+libxfont1/xenial-updates,xenial-security,now 1:1.5.1-1ubuntu0.16.04.4 amd64 [installed,automatic]
+libxft2/xenial,now 2.3.2-1 amd64 [installed,automatic]
+libxi6/xenial,now 2:1.7.6-1 amd64 [installed,automatic]
+libxinerama1/xenial,now 2:1.1.3-1 amd64 [installed,automatic]
+libxkbcommon0/xenial-updates,xenial-security,now 0.5.0-1ubuntu2.1 amd64 [installed,automatic]
+libxkbfile1/xenial,now 1:1.0.9-0ubuntu1 amd64 [installed,automatic]
+libxml2/now 2.9.3+dfsg1-1ubuntu0.1 amd64 [installed,upgradable to: 2.9.4-1+deb.sury.org~xenial+2]
+libxmu6/xenial,now 2:1.1.2-2 amd64 [installed,automatic]
+libxmuu1/xenial,now 2:1.1.2-2 amd64 [installed,automatic]
+libxpm4/xenial-updates,xenial-security,now 1:3.5.11-1ubuntu0.16.04.1 amd64 [installed,automatic]
+libxrandr2/xenial,now 2:1.5.0-1 amd64 [installed,automatic]
+libxrender1/xenial,now 1:0.9.9-0ubuntu1 amd64 [installed,automatic]
+libxshmfence1/xenial,now 1.2-1 amd64 [installed,automatic]
+libxslt1.1/xenial-updates,xenial-security,now 1.1.28-2.1ubuntu0.1 amd64 [installed,automatic]
+libxss1/xenial,now 1:1.2.2-1 amd64 [installed,automatic]
+libxt6/xenial,now 1:1.1.5-0ubuntu1 amd64 [installed,automatic]
+libxtables11/xenial,now 1.6.0-2ubuntu3 amd64 [installed]
+libxtst6/xenial,now 2:1.2.2-1 amd64 [installed,automatic]
+libxv1/xenial,now 2:1.0.10-1 amd64 [installed,automatic]
+libxxf86dga1/xenial,now 2:1.1.4-1 amd64 [installed,automatic]
+libxxf86vm1/xenial,now 1:1.1.4-1 amd64 [installed,automatic]
+libyaml-libyaml-perl/xenial,now 0.41-6build1 amd64 [installed,automatic]
+libzip5/xenial,now 1.3.2-1+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+lintian/xenial-updates,xenial-security,now 2.5.43ubuntu0.1 all [installed,automatic]
+linux-base/xenial,now 4.0ubuntu1 all [installed,upgradable to: 4.5ubuntu1~16.04.1]
+linux-libc-dev/now 4.4.0-141.167 amd64 [installed,upgradable to: 4.4.0-142.168]
+locales/xenial,now 2.23-0ubuntu3 all [installed,upgradable to: 2.23-0ubuntu10]
+login/xenial,now 1:4.2-3.1ubuntu5 amd64 [installed,upgradable to: 1:4.2-3.1ubuntu5.3]
+logrotate/xenial,now 3.8.7-2ubuntu2 amd64 [installed,upgradable to: 3.8.7-2ubuntu2.16.04.2]
+lsb-base/xenial-updates,now 9.20160110ubuntu0.2 all [installed]
+lsb-release/xenial-updates,now 9.20160110ubuntu0.2 all [installed]
+lsof/xenial,now 4.89+dfsg-0.1 amd64 [installed]
+lynx/xenial,now 2.8.9dev8-4ubuntu1 amd64 [installed]
+lynx-common/xenial,now 2.8.9dev8-4ubuntu1 all [installed]
+lzma/xenial,now 9.22-2ubuntu2 amd64 [installed]
+m4/xenial,now 1.4.17-5 amd64 [installed]
+make/xenial,now 4.1-6 amd64 [installed]
+makedev/xenial,now 2.3.1-93ubuntu1 all [installed,upgradable to: 2.3.1-93ubuntu2~ubuntu16.04.1]
+man-db/xenial,now 2.7.5-1 amd64 [installed]
+manpages/xenial,now 4.04-2 all [installed]
+manpages-dev/xenial,now 4.04-2 all [installed,automatic]
+mariadb-client-10.3/unknown,now 1:10.3.12+maria~xenial amd64 [installed,automatic]
+mariadb-client-core-10.3/unknown,now 1:10.3.12+maria~xenial amd64 [installed,automatic]
+mariadb-common/unknown,unknown,unknown,unknown,now 1:10.3.12+maria~xenial all [installed,automatic]
+mariadb-server/unknown,unknown,unknown,unknown,now 1:10.3.12+maria~xenial all [installed]
+mariadb-server-10.3/unknown,now 1:10.3.12+maria~xenial amd64 [installed,automatic]
+mariadb-server-core-10.3/unknown,now 1:10.3.12+maria~xenial amd64 [installed,automatic]
+mc/xenial,now 3:4.8.15-2 amd64 [installed]
+mc-data/xenial,now 3:4.8.15-2 all [installed,automatic]
+memtester/xenial,now 4.3.0-3 amd64 [installed]
+mime-support/xenial,now 3.59ubuntu1 all [installed]
+mktemp/xenial,now 8.25-2ubuntu2 all [installed,upgradable to: 8.25-2ubuntu3~16.04]
+mlocate/xenial,now 0.26-1ubuntu2 amd64 [installed]
+module-init-tools/xenial,now 22-1ubuntu4 all [installed,upgradable to: 22-1ubuntu5.1]
+mount/now 2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 2.27.1-6ubuntu3.6]
+mountall/xenial,now 2.54ubuntu1 amd64 [installed]
+mtools/xenial,now 4.0.18-2 amd64 [installed,upgradable to: 4.0.18-2ubuntu0.16.04]
+multiarch-support/xenial,now 2.23-0ubuntu3 amd64 [installed,upgradable to: 2.23-0ubuntu10]
+mysql-common/unknown,unknown,unknown,unknown,now 1:10.3.12+maria~xenial all [installed,automatic]
+nano/xenial-updates,now 2.5.3-2ubuntu2 amd64 [installed]
+ncurses-base/xenial,now 6.0+20160213-1ubuntu1 all [installed]
+ncurses-bin/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
+ncurses-term/xenial,now 6.0+20160213-1ubuntu1 all [installed]
+net-tools/xenial,now 1.60-26ubuntu1 amd64 [installed]
+netbase/xenial,now 5.3 all [installed]
+nodejs/unknown,now 10.15.1-1nodesource1 amd64 [installed]
+notification-daemon/xenial,now 3.18.2-1 amd64 [installed,automatic]
+ntpdate/xenial-updates,xenial-security,now 1:4.2.8p4+dfsg-3ubuntu5.9 amd64 [installed]
+odbcinst/xenial,now 2.3.1-4.1 amd64 [installed]
+odbcinst1debian2/xenial,now 2.3.1-4.1 amd64 [installed]
+openfire/now 4.3.2 all [installed,local]
+openjdk-8-jre/xenial-updates,xenial-security,now 8u191-b12-2ubuntu0.16.04.1 amd64 [installed,automatic]
+openjdk-8-jre-headless/xenial-updates,xenial-security,now 8u191-b12-2ubuntu0.16.04.1 amd64 [installed,automatic]
+openssh-blacklist/xenial,now 0.4.1+nmu1 all [installed]
+openssh-client/now 1:7.2p2-4ubuntu1 amd64 [installed,upgradable to: 1:7.2p2-4ubuntu2.7]
+openssh-server/now 1:7.2p2-4ubuntu1 amd64 [installed,upgradable to: 1:7.2p2-4ubuntu2.7]
+openssh-sftp-server/now 1:7.2p2-4ubuntu1 amd64 [installed,upgradable to: 1:7.2p2-4ubuntu2.7]
+openssl/now 1.0.2g-1ubuntu4.1 amd64 [installed,upgradable to: 1.1.0h-2.0+ubuntu16.04.1+deb.sury.org+1]
+openssl-blacklist/xenial,now 0.5-3 all [installed]
+p11-kit/xenial-updates,now 0.23.2-5~ubuntu16.04.1 amd64 [installed,automatic]
+p11-kit-modules/xenial-updates,now 0.23.2-5~ubuntu16.04.1 amd64 [installed,automatic]
+passwd/xenial,now 1:4.2-3.1ubuntu5 amd64 [installed,upgradable to: 1:4.2-3.1ubuntu5.3]
+patch/xenial,now 2.7.5-1 amd64 [installed,upgradable to: 2.7.5-1ubuntu0.16.04.1]
+patchutils/xenial,now 0.3.4-1 amd64 [installed,automatic]
+perl/xenial,now 5.22.1-9 amd64 [installed,upgradable to: 5.22.1-9ubuntu0.6]
+perl-base/xenial,now 5.22.1-9 amd64 [installed,upgradable to: 5.22.1-9ubuntu0.6]
+perl-modules-5.22/xenial,now 5.22.1-9 all [installed,upgradable to: 5.22.1-9ubuntu0.6]
+php-common/xenial,now 2:69+ubuntu16.04.1+deb.sury.org+1 all [installed,automatic]
+php-gettext/xenial,now 1.0.11-2+deb.sury.org~xenial+1 all [installed]
+php-mbstring/xenial,now 2:7.2+69+ubuntu16.04.1+deb.sury.org+1 all [installed]
+php-mcrypt/xenial-updates,now 1:7.0+35ubuntu6.1 all [installed,automatic]
+php-pear/xenial,now 1:1.10.6+submodules+notgz-1+ubuntu16.04.1+deb.sury.org+2 all [installed]
+php-phpseclib/xenial,now 2.0.1-1build1 all [installed,automatic]
+php-tcpdf/xenial,now 6.0.093+dfsg-1ubuntu1 all [installed,automatic]
+php7.0-common/xenial,now 7.0.33-1+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+php7.0-mcrypt/xenial,now 7.0.33-1+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+php7.2-common/now 7.2.14-1+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,upgradable to: 7.2.15-1+ubuntu16.04.1+deb.sury.org+1]
+php7.2-mbstring/now 7.2.14-1+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,upgradable to: 7.2.15-1+ubuntu16.04.1+deb.sury.org+1]
+php7.3/now 7.3.1-1+ubuntu16.04.1+deb.sury.org+1 all [installed,upgradable to: 7.3.2-3+ubuntu16.04.1+deb.sury.org+1]
+php7.3-bcmath/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+php7.3-cli/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+php7.3-common/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+php7.3-curl/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+php7.3-dev/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+php7.3-gd/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+php7.3-json/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+php7.3-mbstring/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+php7.3-mysql/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+php7.3-opcache/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+php7.3-readline/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed,automatic]
+php7.3-xml/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+php7.3-zip/xenial,now 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 amd64 [installed]
+phpmyadmin/xenial-updates,xenial-security,now 4:4.5.4.1-2ubuntu2.1 all [installed]
+pinentry-gnome3/xenial,now 0.9.7-3 amd64 [installed,automatic]
+pkg-php-tools/xenial,now 1.33+deb.sury.org~xenial+1 all [installed,automatic]
+plymouth/now 0.9.2-3ubuntu13.1 amd64 [installed,upgradable to: 0.9.2-3ubuntu13.5]
+po-debconf/xenial,now 1.0.19 all [installed,automatic]
+policykit-1/xenial-updates,xenial-security,now 0.105-14.1ubuntu0.4 amd64 [installed,automatic]
+postfix/xenial,now 3.1.0-3 amd64 [installed,upgradable to: 3.1.0-3ubuntu0.3]
+procinfo/xenial,now 1:2.0.304-1ubuntu2 amd64 [installed]
+procmail/xenial,now 3.22-25 amd64 [installed,upgradable to: 3.22-25ubuntu0.16.04.1]
+procps/xenial,now 2:3.3.10-4ubuntu2 amd64 [installed,upgradable to: 2:3.3.10-4ubuntu2.4]
+psmisc/xenial,now 22.21-2.1build1 amd64 [installed]
+psutils/xenial,now 1.17.dfsg-2 amd64 [installed]
+pwgen/xenial,now 2.07-1.1ubuntu1 amd64 [installed]
+python/xenial-updates,now 2.7.12-1~16.04 amd64 [installed]
+python-all/xenial-updates,now 2.7.12-1~16.04 amd64 [installed,automatic]
+python-all-dev/xenial-updates,now 2.7.12-1~16.04 amd64 [installed,automatic]
+python-apt/xenial-updates,now 1.1.0~beta1ubuntu0.16.04.2 amd64 [installed]
+python-apt-common/xenial-updates,now 1.1.0~beta1ubuntu0.16.04.2 all [installed,automatic]
+python-augeas/xenial,now 0.5.0-1 all [installed]
+python-bs4/xenial,now 4.4.1-1 all [installed,automatic]
+python-chardet/xenial,now 2.3.0-2 all [installed,automatic]
+python-crypto/xenial,now 2.6.1-6build1 amd64 [installed,upgradable to: 2.6.1-6ubuntu0.16.04.3]
+python-dbus/xenial,now 1.2.0-3 amd64 [installed]
+python-dev/xenial-updates,now 2.7.12-1~16.04 amd64 [installed]
+python-dnspython/xenial,now 1.12.0-1 all [installed]
+python-gi/xenial,now 3.20.0-0ubuntu1 amd64 [installed,automatic]
+python-html5lib/xenial,now 0.999-4 all [installed,automatic]
+python-ldb/xenial,now 2:1.1.24-1ubuntu3 amd64 [installed]
+python-lxml/xenial-updates,xenial-security,now 3.5.0-1ubuntu0.1 amd64 [installed]
+python-minimal/xenial-updates,now 2.7.12-1~16.04 amd64 [installed]
+python-pip/xenial-updates,now 8.1.1-2ubuntu0.4 all [installed]
+python-pip-whl/xenial-updates,now 8.1.1-2ubuntu0.4 all [installed,automatic]
+python-pkg-resources/xenial,now 20.7.0-1 all [installed,automatic]
+python-samba/now 2:4.3.9+dfsg-0ubuntu0.16.04.2 amd64 [installed,upgradable to: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+python-setuptools/xenial,now 20.7.0-1 all [installed,automatic]
+python-six/xenial,now 1.10.0-3 all [installed,automatic]
+python-talloc/xenial,now 2.1.5-2 amd64 [installed]
+python-tdb/xenial,now 1.3.8-2 amd64 [installed]
+python-wheel/xenial,now 0.29.0-1 all [installed,automatic]
+python2.7/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed]
+python2.7-dev/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,automatic]
+python2.7-minimal/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed]
+python3/xenial,now 3.5.1-3 amd64 [installed]
+python3-apt/xenial-updates,now 1.1.0~beta1ubuntu0.16.04.2 amd64 [installed,automatic]
+python3-chardet/xenial,now 2.3.0-2 all [installed,automatic]
+python3-dbus/xenial,now 1.2.0-3 amd64 [installed,automatic]
+python3-debian/xenial,now 0.1.27ubuntu2 all [installed,automatic]
+python3-gi/xenial,now 3.20.0-0ubuntu1 amd64 [installed,automatic]
+python3-minimal/xenial,now 3.5.1-3 amd64 [installed]
+python3-pkg-resources/xenial,now 20.7.0-1 all [installed,automatic]
+python3-pycurl/xenial,now 7.43.0-1ubuntu1 amd64 [installed,automatic]
+python3-six/xenial,now 1.10.0-3 all [installed,automatic]
+python3-software-properties/xenial-updates,now 0.96.20.8 all [installed,automatic]
+python3.5/now 3.5.2-2~16.01 amd64 [installed,upgradable to: 3.5.2-2ubuntu0~16.04.5]
+python3.5-minimal/now 3.5.2-2~16.01 amd64 [installed,upgradable to: 3.5.2-2ubuntu0~16.04.5]
+quota/xenial,now 4.03-2 amd64 [installed]
+readline-common/xenial,now 6.3-8ubuntu2 all [installed]
+rpcbind/xenial,now 0.2.3-0.2 amd64 [installed]
+rsync/xenial,now 3.1.1-3ubuntu1 amd64 [installed,upgradable to: 3.1.1-3ubuntu1.2]
+rsyslog/xenial,now 8.16.0-1ubuntu3 amd64 [installed]
+samba/now 2:4.3.9+dfsg-0ubuntu0.16.04.2 amd64 [installed,upgradable to: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+samba-common/now 2:4.3.9+dfsg-0ubuntu0.16.04.2 all [installed,upgradable to: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+samba-common-bin/now 2:4.3.9+dfsg-0ubuntu0.16.04.2 amd64 [installed,upgradable to: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+samba-libs/now 2:4.3.9+dfsg-0ubuntu0.16.04.2 amd64 [installed,upgradable to: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+sasl2-bin/xenial,now 2.1.26.dfsg1-14build1 amd64 [installed,upgradable to: 2.1.26.dfsg1-14ubuntu0.1]
+screen/xenial,now 4.3.1-2build1 amd64 [installed]
+sed/xenial,now 4.2.2-7 amd64 [installed]
+sensible-utils/xenial,now 0.0.9 all [installed,upgradable to: 0.0.9ubuntu0.16.04.1]
+shared-mime-info/xenial-updates,now 1.5-2ubuntu0.2 amd64 [installed,automatic]
+sharutils/xenial,now 1:4.15.2-1 amd64 [installed,upgradable to: 1:4.15.2-1ubuntu0.1]
+shtool/xenial,now 2.0.8-8 all [installed,automatic]
+snmp/xenial,now 5.7.3+dfsg-1ubuntu4 amd64 [installed,upgradable to: 5.7.3+dfsg-1ubuntu4.2]
+socat/xenial,now 1.7.3.1-1 amd64 [installed,automatic]
+software-properties-common/xenial-updates,now 0.96.20.8 all [installed]
+ssl-cert/xenial,now 1.0.37 all [installed]
+sudo/now 1.8.16-0ubuntu1.1 amd64 [installed,upgradable to: 1.8.16-0ubuntu1.5]
+syslinux/xenial,now 3:6.03+dfsg-11ubuntu1 amd64 [installed]
+systemd/xenial-updates,xenial-security,now 229-4ubuntu21.15 amd64 [installed]
+systemd-sysv/now 229-4ubuntu7 amd64 [installed,upgradable to: 229-4ubuntu21.15]
+sysv-rc/xenial,now 2.88dsf-59.3ubuntu2 all [installed]
+sysvinit-utils/xenial,now 2.88dsf-59.3ubuntu2 amd64 [installed]
+t1utils/xenial,now 1.39-2 amd64 [installed,automatic]
+tar/xenial,now 1.28-2.1 amd64 [installed,upgradable to: 1.28-2.1ubuntu0.1]
+tcl/xenial,now 8.6.0+9 amd64 [installed,automatic]
+tcl8.6/xenial,now 8.6.5+dfsg-2 amd64 [installed,automatic]
+tcpdump/xenial,now 4.7.4-1ubuntu1 amd64 [installed,upgradable to: 4.9.2-0ubuntu0.16.04.1]
+tcsh/xenial,now 6.18.01-5 amd64 [installed]
+tdb-tools/xenial,now 1.3.8-2 amd64 [installed]
+telnet/xenial,now 0.17-40 amd64 [installed]
+tk/xenial,now 8.6.0+9 amd64 [installed,automatic]
+tk8.6/xenial,now 8.6.5-1 amd64 [installed,automatic]
+tofrodos/xenial,now 1.7.13+ds-2ubuntu1 amd64 [installed]
+traceroute/xenial,now 1:2.0.21-1 amd64 [installed]
+ttf-dejavu/xenial,now 2.35-1 all [installed]
+ttf-dejavu-core/xenial,now 2.35-1 all [installed]
+ttf-dejavu-extra/xenial,now 2.35-1 all [installed]
+ttf-freefont/xenial,now 20120503-4 all [installed]
+tzdata/now 2016f-0ubuntu0.16.04 all [installed,upgradable to: 2018i-0ubuntu0.16.04]
+ubuntu-keyring/xenial,now 2012.05.19 all [installed]
+ubuntu-mono/xenial-updates,now 14.04+16.04.20180326-0ubuntu1 all [installed,automatic]
+ucf/xenial,now 3.0036 all [installed]
+udev/now 229-4ubuntu7 amd64 [installed,upgradable to: 229-4ubuntu21.15]
+unattended-upgrades/xenial-updates,xenial-security,now 0.90ubuntu0.10 all [installed,automatic]
+unixodbc/xenial,now 2.3.1-4.1 amd64 [installed]
+unzip/xenial,now 6.0-20ubuntu1 amd64 [installed]
+update-inetd/xenial,now 4.43 all [installed]
+util-linux/now 2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 2.27.1-6ubuntu3.6]
+uuid-dev/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
+uuid-runtime/now 2.27.1-6ubuntu3.1 amd64 [installed,upgradable to: 2.27.1-6ubuntu3.6]
+vim/now 2:7.4.1689-3ubuntu1.1 amd64 [installed,upgradable to: 2:7.4.1689-3ubuntu1.2]
+vim-common/now 2:7.4.1689-3ubuntu1.1 amd64 [installed,upgradable to: 2:7.4.1689-3ubuntu1.2]
+vim-runtime/now 2:7.4.1689-3ubuntu1.1 all [installed,upgradable to: 2:7.4.1689-3ubuntu1.2]
+webmin/now 1.900 all [installed,local]
+wget/now 1.17.1-1ubuntu1.1 amd64 [installed,upgradable to: 1.17.1-1ubuntu1.4]
+whois/xenial,now 5.2.11 amd64 [installed]
+wide-dhcpv6-client/xenial,now 20080615-16 amd64 [installed]
+x11-common/xenial-updates,now 1:7.7+13ubuntu3.1 all [installed,automatic]
+x11-utils/xenial,now 7.7+3 amd64 [installed,automatic]
+x11-xkb-utils/xenial,now 7.7+2 amd64 [installed,automatic]
+xauth/xenial,now 1:1.0.9-1ubuntu2 amd64 [installed,automatic]
+xbitmaps/xenial,now 1.1.1-2 all [installed,automatic]
+xfonts-base/xenial,now 1:1.0.4+nmu1 all [installed,automatic]
+xfonts-encodings/xenial,now 1:1.0.4-2 all [installed,automatic]
+xfonts-utils/xenial-updates,now 1:7.7+3ubuntu0.16.04.2 amd64 [installed,automatic]
+xinetd/xenial,now 1:2.3.15-6 amd64 [installed]
+xkb-data/xenial,now 2.16-1ubuntu1 all [installed,automatic]
+xserver-common/xenial-updates,now 2:1.18.4-0ubuntu0.8 all [installed,automatic]
+xserver-xorg-core/xenial-updates,now 2:1.18.4-0ubuntu0.8 amd64 [installed,automatic]
+xserver-xorg-input-all/xenial-updates,now 1:7.7+13ubuntu3.1 amd64 [installed]
+xserver-xorg-input-evdev/xenial,now 1:2.10.1-1ubuntu2 amd64 [installed,automatic]
+xserver-xorg-input-synaptics/xenial,now 1.8.2-1ubuntu3 amd64 [installed,automatic]
+xserver-xorg-input-vmmouse/xenial,now 1:13.1.0-1ubuntu2 amd64 [installed,automatic]
+xserver-xorg-input-wacom/xenial,now 1:0.32.0-0ubuntu3 amd64 [installed,automatic]
+xterm/xenial,now 322-1ubuntu1 amd64 [installed,automatic]
+xz-utils/xenial,now 5.1.1alpha+20120614-2ubuntu2 amd64 [installed]
+yarn/stable,stable,now 1.13.0-1 all [installed]
+zlib1g/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed]
+zlib1g-dev/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed,automatic]
+
+acl                                             install
+adduser                                         install
+adwaita-icon-theme                              install
+apache2                                         install
+apache2-bin                                     install
+apache2-data                                    install
+apache2-doc                                     install
+apache2-utils                                   install
+apt                                             install
+apt-show-versions                               install
+apt-transport-https                             install
+apt-utils                                       install
+at-spi2-core                                    install
+augeas-lenses                                   install
+autoconf                                        install
+automake                                        install
+autotools-dev                                   install
+base-files                                      install
+base-passwd                                     install
+bash                                            install
+bind9                                           install
+bind9-host                                      install
+bind9utils                                      install
+binutils                                        install
+bsd-mailx                                       install
+bsdmainutils                                    install
+bsdutils                                        install
+build-essential                                 install
+busybox-initramfs                               install
+bzip2                                           install
+ca-certificates                                 install
+ca-certificates-java                            install
+cifs-utils                                      install
+colord                                          install
+colord-data                                     install
+console-data                                    install
+coreutils                                       install
+cpio                                            install
+cpp                                             install
+cpp-5                                           install
+cracklib-runtime                                install
+cron                                            install
+curl                                            install
+dash                                            install
+db-util                                         install
+db5.3-util                                      install
+dbconfig-common                                 install
+dbconfig-mysql                                  install
+dbus                                            install
+dbus-x11                                        install
+dconf-gsettings-backend:amd64                   install
+dconf-service                                   install
+debconf                                         install
+debconf-i18n                                    install
+debconf-utils                                   install
+debhelper                                       install
+debianutils                                     install
+default-jre                                     install
+default-jre-headless                            install
+dh-python                                       install
+dh-strip-nondeterminism                         install
+dialog                                          install
+diffstat                                        install
+diffutils                                       install
+distro-info-data                                install
+dmsetup                                         install
+dpkg                                            install
+dpkg-dev                                        install
+dselect                                         install
+e2fslibs:amd64                                  install
+ed                                              install
+emacsen-common                                  install
+erlang                                          install
+erlang-asn1                                     install
+erlang-base                                     install
+erlang-common-test                              install
+erlang-corba                                    install
+erlang-crypto                                   install
+erlang-debugger                                 install
+erlang-dev                                      install
+erlang-dialyzer                                 install
+erlang-diameter                                 install
+erlang-edoc                                     install
+erlang-eldap                                    install
+erlang-erl-docgen                               install
+erlang-et                                       install
+erlang-eunit                                    install
+erlang-examples                                 install
+erlang-gs                                       install
+erlang-ic                                       install
+erlang-ic-java                                  install
+erlang-inets                                    install
+erlang-jinterface                               install
+erlang-megaco                                   install
+erlang-mnesia                                   install
+erlang-mode                                     install
+erlang-observer                                 install
+erlang-odbc                                     install
+erlang-os-mon                                   install
+erlang-parsetools                               install
+erlang-percept                                  install
+erlang-public-key                               install
+erlang-reltool                                  install
+erlang-runtime-tools                            install
+erlang-snmp                                     install
+erlang-src                                      install
+erlang-ssh                                      install
+erlang-ssl                                      install
+erlang-syntax-tools                             install
+erlang-test-server                              install
+erlang-tools                                    install
+erlang-typer                                    install
+erlang-webtool                                  install
+erlang-wx                                       install
+erlang-xmerl                                    install
+expat                                           install
+fakeroot                                        install
+fetchmail                                       install
+file                                            install
+findutils                                       install
+finger                                          install
+fontconfig                                      install
+fontconfig-config                               install
+fonts-dejavu                                    install
+fonts-dejavu-core                               install
+fonts-dejavu-extra                              install
+fonts-freefont-ttf                              install
+ftp                                             install
+g++                                             install
+g++-5                                           install
+galera-3                                        install
+gawk                                            install
+gcc                                             install
+gcc-4.8-base:amd64                              install
+gcc-4.9-base:amd64                              install
+gcc-5                                           install
+gcc-5-base:amd64                                install
+gcc-6-base:amd64                                install
+gconf-service                                   install
+gconf-service-backend                           install
+gconf2                                          install
+gconf2-common                                   install
+gcr                                             install
+gdebi                                           install
+gdebi-core                                      install
+gettext                                         install
+gettext-base                                    install
+gir1.2-atk-1.0                                  install
+gir1.2-freedesktop:amd64                        install
+gir1.2-gdkpixbuf-2.0:amd64                      install
+gir1.2-glib-2.0:amd64                           install
+gir1.2-gtk-3.0:amd64                            install
+gir1.2-pango-1.0:amd64                          install
+gir1.2-vte-2.91:amd64                           install
+git                                             install
+git-man                                         install
+gksu                                            install
+glib-networking:amd64                           install
+glib-networking-common                          install
+glib-networking-services                        install
+gnome-icon-theme                                install
+gnome-keyring                                   install
+gnupg                                           install
+gpgv                                            install
+grep                                            install
+groff-base                                      install
+gsettings-desktop-schemas                       install
+gzip                                            install
+hardening-includes                              install
+hicolor-icon-theme                              install
+hostname                                        install
+humanity-icon-theme                             install
+ifupdown                                        install
+info                                            install
+init-system-helpers                             install
+initramfs-tools                                 install
+initramfs-tools-bin                             install
+initramfs-tools-core                            install
+initscripts                                     install
+insserv                                         install
+install-info                                    install
+intltool-debian                                 install
+iproute2                                        install
+iptables                                        install
+iputils-arping                                  install
+iputils-ping                                    install
+iputils-tracepath                               install
+isc-dhcp-client                                 install
+isc-dhcp-common                                 install
+iso-codes                                       install
+java-common                                     install
+javascript-common                               install
+keyboard-configuration                          install
+klibc-utils                                     install
+kmod                                            install
+ldap-utils                                      install
+less                                            install
+libacl1:amd64                                   install
+libaio1:amd64                                   install
+libalgorithm-diff-perl                          install
+libalgorithm-diff-xs-perl                       install
+libalgorithm-merge-perl                         install
+libapache2-mod-fastcgi                          install
+libapache2-mod-php7.3                           install
+libapparmor1:amd64                              install
+libapr1:amd64                                   install
+libaprutil1:amd64                               install
+libaprutil1-dbd-sqlite3:amd64                   install
+libaprutil1-ldap:amd64                          install
+libapt-inst2.0:amd64                            install
+libapt-pkg-perl                                 install
+libapt-pkg5.0:amd64                             install
+libarchive-zip-perl                             install
+libargon2-0:amd64                               install
+libasan2:amd64                                  install
+libasn1-8-heimdal:amd64                         install
+libasound2:amd64                                install
+libasound2-data                                 install
+libasprintf0v5:amd64                            install
+libassuan0:amd64                                install
+libasyncns0:amd64                               install
+libatk-bridge2.0-0:amd64                        install
+libatk1.0-0:amd64                               install
+libatk1.0-data                                  install
+libatomic1:amd64                                install
+libatspi2.0-0:amd64                             install
+libattr1:amd64                                  install
+libaudit-common                                 install
+libaudit1:amd64                                 install
+libaugeas0                                      install
+libauthen-pam-perl                              install
+libauthen-sasl-perl                             install
+libavahi-client3:amd64                          install
+libavahi-common-data:amd64                      install
+libavahi-common3:amd64                          install
+libbind9-140:amd64                              install
+libblkid1:amd64                                 install
+libboost-filesystem1.58.0:amd64                 install
+libboost-system1.58.0:amd64                     install
+libbsd0:amd64                                   install
+libbz2-1.0:amd64                                install
+libc-bin                                        install
+libc-dev-bin                                    install
+libc6:amd64                                     install
+libc6-dev:amd64                                 install
+libcairo-gobject2:amd64                         install
+libcairo-perl                                   install
+libcairo2:amd64                                 install
+libcap-ng0:amd64                                install
+libcap2:amd64                                   install
+libcap2-bin                                     install
+libcapnp-0.5.3:amd64                            install
+libcc1-0:amd64                                  install
+libcgi-fast-perl                                install
+libcgi-pm-perl                                  install
+libcilkrts5:amd64                               install
+libclass-accessor-perl                          install
+libclone-perl                                   install
+libcolord2:amd64                                install
+libcolorhug2:amd64                              install
+libcomerr2:amd64                                install
+libcrack2:amd64                                 install
+libcroco3:amd64                                 install
+libcryptsetup4:amd64                            install
+libcups2:amd64                                  install
+libcurl3:amd64                                  install
+libcurl3-gnutls:amd64                           install
+libdata-alias-perl                              install
+libdatrie1:amd64                                install
+libdb5.3:amd64                                  install
+libdbd-mysql-perl                               install
+libdbi-perl                                     install
+libdbus-1-3:amd64                               install
+libdbus-glib-1-2:amd64                          install
+libdconf1:amd64                                 install
+libdebconfclient0:amd64                         install
+libdevmapper1.02.1:amd64                        install
+libdigest-hmac-perl                             install
+libdns-export162                                install
+libdns162:amd64                                 install
+libdpkg-perl                                    install
+libdrm-amdgpu1:amd64                            install
+libdrm-common                                   install
+libdrm-intel1:amd64                             install
+libdrm-nouveau2:amd64                           install
+libdrm-radeon1:amd64                            install
+libdrm2:amd64                                   install
+libedit2:amd64                                  install
+libegl1-mesa:amd64                              install
+libelf1:amd64                                   install
+libemail-valid-perl                             install
+libencode-locale-perl                           install
+libepoxy0:amd64                                 install
+liberror-perl                                   install
+libestr0                                        install
+libevdev2:amd64                                 install
+libexif12:amd64                                 install
+libexpat1:amd64                                 install
+libexpat1-dev:amd64                             install
+libexporter-tiny-perl                           install
+libfakeroot:amd64                               install
+libfcgi-perl                                    install
+libfdisk1:amd64                                 install
+libffi-dev:amd64                                install
+libffi6:amd64                                   install
+libfile-basedir-perl                            install
+libfile-copy-recursive-perl                     install
+libfile-fcntllock-perl                          install
+libfile-stripnondeterminism-perl                install
+libflac8:amd64                                  install
+libfontconfig1:amd64                            install
+libfontenc1:amd64                               install
+libfreetype6:amd64                              install
+libgbm1:amd64                                   install
+libgcc-5-dev:amd64                              install
+libgcc1:amd64                                   install
+libgck-1-0:amd64                                install
+libgconf-2-4:amd64                              install
+libgcr-3-common                                 install
+libgcr-base-3-1:amd64                           install
+libgcr-ui-3-1:amd64                             install
+libgcrypt20:amd64                               install
+libgd3:amd64                                    install
+libgdbm3:amd64                                  install
+libgdk-pixbuf2.0-0:amd64                        install
+libgdk-pixbuf2.0-common                         install
+libgeoip1:amd64                                 install
+libgif7:amd64                                   install
+libgirepository-1.0-1:amd64                     install
+libgksu2-0                                      install
+libgl1-mesa-dri:amd64                           install
+libgl1-mesa-glx:amd64                           install
+libglapi-mesa:amd64                             install
+libglib-perl                                    install
+libglib2.0-0:amd64                              install
+libglu1-mesa:amd64                              install
+libgmp10:amd64                                  install
+libgnome-keyring-common                         install
+libgnome-keyring0:amd64                         install
+libgnutls-openssl27:amd64                       install
+libgnutls30:amd64                               install
+libgomp1:amd64                                  install
+libgpg-error0:amd64                             install
+libgphoto2-6:amd64                              install
+libgphoto2-l10n                                 install
+libgphoto2-port12:amd64                         install
+libgpm2:amd64                                   install
+libgraphite2-3:amd64                            install
+libgssapi-krb5-2:amd64                          install
+libgssapi3-heimdal:amd64                        install
+libgtk-3-0:amd64                                install
+libgtk-3-bin                                    install
+libgtk-3-common                                 install
+libgtk2-perl                                    install
+libgtk2.0-0:amd64                               install
+libgtk2.0-bin                                   install
+libgtk2.0-common                                install
+libgtop-2.0-10:amd64                            install
+libgtop2-common                                 install
+libgudev-1.0-0:amd64                            install
+libgusb2:amd64                                  install
+libharfbuzz0b:amd64                             install
+libhcrypto4-heimdal:amd64                       install
+libheimbase1-heimdal:amd64                      install
+libheimntlm0-heimdal:amd64                      install
+libhogweed4:amd64                               install
+libhtml-parser-perl                             install
+libhtml-tagset-perl                             install
+libhtml-template-perl                           install
+libhttp-date-perl                               install
+libhttp-message-perl                            install
+libhx509-5-heimdal:amd64                        install
+libice6:amd64                                   install
+libicu55:amd64                                  install
+libidn11:amd64                                  install
+libieee1284-3:amd64                             install
+libio-html-perl                                 install
+libio-pty-perl                                  install
+libio-socket-inet6-perl                         install
+libio-socket-ssl-perl                           install
+libio-string-perl                               install
+libipc-run-perl                                 install
+libipc-system-simple-perl                       install
+libirs141:amd64                                 install
+libisc-export160                                install
+libisc160:amd64                                 install
+libisccc140:amd64                               install
+libisccfg140:amd64                              install
+libisl15:amd64                                  install
+libitm1:amd64                                   install
+libjbig0:amd64                                  install
+libjpeg-dev:amd64                               install
+libjpeg-turbo8:amd64                            install
+libjpeg-turbo8-dev:amd64                        install
+libjpeg8:amd64                                  install
+libjpeg8-dev:amd64                              install
+libjs-jquery                                    install
+libjs-jquery-metadata                           install
+libjs-jquery-tablesorter                        install
+libjs-sphinxdoc                                 install
+libjs-underscore                                install
+libjson-c2:amd64                                install
+libjson-glib-1.0-0:amd64                        install
+libjson-glib-1.0-common                         install
+libk5crypto3:amd64                              install
+libkeyutils1:amd64                              install
+libklibc                                        install
+libkmod2:amd64                                  install
+libkrb5-26-heimdal:amd64                        install
+libkrb5-3:amd64                                 install
+libkrb5support0:amd64                           install
+liblcms2-2:amd64                                install
+libldap-2.4-2:amd64                             install
+libldb1:amd64                                   install
+liblist-moreutils-perl                          install
+libllvm6.0:amd64                                install
+liblocale-gettext-perl                          install
+liblockfile-bin                                 install
+liblockfile1:amd64                              install
+liblsan0:amd64                                  install
+libltdl-dev:amd64                               install
+libltdl7:amd64                                  install
+liblua5.1-0:amd64                               install
+liblwp-mediatypes-perl                          install
+liblwres141:amd64                               install
+liblz4-1:amd64                                  install
+liblzma5:amd64                                  install
+libmagic1:amd64                                 install
+libmail-sendmail-perl                           install
+libmailtools-perl                               install
+libmcrypt4                                      install
+libmirclient9:amd64                             install
+libmircommon7:amd64                             install
+libmircore1:amd64                               install
+libmirprotobuf3:amd64                           install
+libmnl0:amd64                                   install
+libmount1:amd64                                 install
+libmpc3:amd64                                   install
+libmpdec2:amd64                                 install
+libmpfr4:amd64                                  install
+libmpx0:amd64                                   install
+libmtdev1:amd64                                 install
+libmysqlclient20:amd64                          install
+libncurses5:amd64                               install
+libncursesw5:amd64                              install
+libnet-dns-perl                                 install
+libnet-domain-tld-perl                          install
+libnet-ip-perl                                  install
+libnet-smtp-ssl-perl                            install
+libnet-ssleay-perl                              install
+libnettle6:amd64                                install
+libnfnetlink0:amd64                             install
+libnih-dbus1:amd64                              install
+libnih1:amd64                                   install
+libnl-3-200:amd64                               install
+libnl-genl-3-200:amd64                          install
+libnotify4:amd64                                install
+libnspr4:amd64                                  install
+libnss3:amd64                                   install
+libnss3-nssdb                                   install
+libnuma1:amd64                                  install
+libodbc1:amd64                                  install
+libogg0:amd64                                   install
+libp11-kit-gnome-keyring:amd64                  install
+libp11-kit0:amd64                               install
+libpam-gnome-keyring:amd64                      install
+libpam-modules:amd64                            install
+libpam-modules-bin                              install
+libpam-runtime                                  install
+libpam-systemd:amd64                            install
+libpam0g:amd64                                  install
+libpango-1.0-0:amd64                            install
+libpango-perl                                   install
+libpangocairo-1.0-0:amd64                       install
+libpangoft2-1.0-0:amd64                         install
+libpangoxft-1.0-0:amd64                         install
+libpaper1:amd64                                 install
+libparse-debianchangelog-perl                   install
+libpcap0.8:amd64                                install
+libpci3:amd64                                   install
+libpciaccess0:amd64                             install
+libpcre2-16-0:amd64                             install
+libpcre2-32-0:amd64                             install
+libpcre2-8-0:amd64                              install
+libpcre2-dev:amd64                              install
+libpcre2-posix0:amd64                           install
+libpcre3:amd64                                  install
+libpcsclite1:amd64                              install
+libperl5.22:amd64                               install
+libperlio-gzip-perl                             install
+libpipeline1:amd64                              install
+libpixman-1-0:amd64                             install
+libplymouth4:amd64                              install
+libpng12-0:amd64                                install
+libpng12-dev:amd64                              install
+libpolkit-agent-1-0:amd64                       install
+libpolkit-backend-1-0:amd64                     install
+libpolkit-gobject-1-0:amd64                     install
+libpopt0:amd64                                  install
+libprocps4:amd64                                install
+libprotobuf-lite9v5:amd64                       install
+libproxy1v5:amd64                               install
+libpulse0:amd64                                 install
+libpython-all-dev:amd64                         install
+libpython-dev:amd64                             install
+libpython-stdlib:amd64                          install
+libpython2.7:amd64                              install
+libpython2.7-dev:amd64                          install
+libpython2.7-minimal:amd64                      install
+libpython2.7-stdlib:amd64                       install
+libpython3-stdlib:amd64                         install
+libpython3.5:amd64                              install
+libpython3.5-minimal:amd64                      install
+libpython3.5-stdlib:amd64                       install
+libquadmath0:amd64                              install
+libreadline5:amd64                              install
+libreadline6:amd64                              install
+librest-0.7-0:amd64                             install
+libroken18-heimdal:amd64                        install
+librsvg2-2:amd64                                install
+librsvg2-common:amd64                           install
+librtmp1:amd64                                  install
+libsane:amd64                                   install
+libsane-common                                  install
+libsasl2-2:amd64                                install
+libsasl2-modules-db:amd64                       install
+libsctp1:amd64                                  install
+libseccomp2:amd64                               install
+libsecret-1-0:amd64                             install
+libsecret-common                                install
+libselinux1:amd64                               install
+libsemanage-common                              install
+libsemanage1:amd64                              install
+libsensors4:amd64                               install
+libsepol1:amd64                                 install
+libsigsegv2:amd64                               install
+libslang2:amd64                                 install
+libsm6:amd64                                    install
+libsmartcols1:amd64                             install
+libsndfile1:amd64                               install
+libsnmp-base                                    install
+libsnmp30:amd64                                 install
+libsocket6-perl                                 install
+libsodium23:amd64                               install
+libsoup-gnome2.4-1:amd64                        install
+libsoup2.4-1:amd64                              install
+libsqlite3-0:amd64                              install
+libssh2-1:amd64                                 install
+libssl-dev:amd64                                install
+libssl1.0.0:amd64                               install
+libssl1.1:amd64                                 install
+libstartup-notification0:amd64                  install
+libstdc++-5-dev:amd64                           install
+libstdc++6:amd64                                install
+libsub-name-perl                                install
+libsys-hostname-long-perl                       install
+libsystemd0:amd64                               install
+libtalloc2:amd64                                install
+libtasn1-6:amd64                                install
+libtcl8.6:amd64                                 install
+libtdb1:amd64                                   install
+libterm-readkey-perl                            install
+libtevent0:amd64                                install
+libtext-charwidth-perl                          install
+libtext-iconv-perl                              install
+libtext-levenshtein-perl                        install
+libtext-wrapi18n-perl                           install
+libthai-data                                    install
+libthai0:amd64                                  install
+libtiff5:amd64                                  install
+libtimedate-perl                                install
+libtinfo5:amd64                                 install
+libtirpc1:amd64                                 install
+libtk8.6:amd64                                  install
+libtool                                         install
+libtsan0:amd64                                  install
+libtxc-dxtn-s2tc0:amd64                         install
+libubsan0:amd64                                 install
+libudev1:amd64                                  install
+libunistring0:amd64                             install
+liburi-perl                                     install
+libusb-0.1-4:amd64                              install
+libusb-1.0-0:amd64                              install
+libustr-1.0-1:amd64                             install
+libutempter0:amd64                              install
+libuuid1:amd64                                  install
+libvorbis0a:amd64                               install
+libvorbisenc2:amd64                             install
+libvte-2.91-0:amd64                             install
+libvte-2.91-common                              install
+libwayland-client0:amd64                        install
+libwayland-cursor0:amd64                        install
+libwayland-egl1-mesa:amd64                      install
+libwayland-server0:amd64                        install
+libwbclient0:amd64                              install
+libwebp6:amd64                                  install
+libwind0-heimdal:amd64                          install
+libwrap0:amd64                                  install
+libwxbase3.0-0v5:amd64                          install
+libwxgtk3.0-0v5:amd64                           install
+libx11-6:amd64                                  install
+libx11-data                                     install
+libx11-xcb1:amd64                               install
+libxau6:amd64                                   install
+libxaw7:amd64                                   install
+libxcb-dri2-0:amd64                             install
+libxcb-dri3-0:amd64                             install
+libxcb-glx0:amd64                               install
+libxcb-present0:amd64                           install
+libxcb-render0:amd64                            install
+libxcb-shape0:amd64                             install
+libxcb-shm0:amd64                               install
+libxcb-sync1:amd64                              install
+libxcb-util1:amd64                              install
+libxcb-xfixes0:amd64                            install
+libxcb1:amd64                                   install
+libxcomposite1:amd64                            install
+libxcursor1:amd64                               install
+libxdamage1:amd64                               install
+libxdmcp6:amd64                                 install
+libxext6:amd64                                  install
+libxfixes3:amd64                                install
+libxfont1:amd64                                 install
+libxft2:amd64                                   install
+libxi6:amd64                                    install
+libxinerama1:amd64                              install
+libxkbcommon0:amd64                             install
+libxkbfile1:amd64                               install
+libxml2:amd64                                   install
+libxmu6:amd64                                   install
+libxmuu1:amd64                                  install
+libxpm4:amd64                                   install
+libxrandr2:amd64                                install
+libxrender1:amd64                               install
+libxshmfence1:amd64                             install
+libxslt1.1:amd64                                install
+libxss1:amd64                                   install
+libxt6:amd64                                    install
+libxtables11:amd64                              install
+libxtst6:amd64                                  install
+libxv1:amd64                                    install
+libxxf86dga1:amd64                              install
+libxxf86vm1:amd64                               install
+libyaml-libyaml-perl                            install
+libzip5:amd64                                   install
+lintian                                         install
+linux-base                                      install
+linux-libc-dev:amd64                            install
+locales                                         install
+login                                           install
+logrotate                                       install
+lsb-base                                        install
+lsb-release                                     install
+lsof                                            install
+lynx                                            install
+lynx-common                                     install
+lzma                                            install
+m4                                              install
+make                                            install
+makedev                                         install
+man-db                                          install
+manpages                                        install
+manpages-dev                                    install
+mariadb-client-10.3                             install
+mariadb-client-core-10.3                        install
+mariadb-common                                  install
+mariadb-server                                  install
+mariadb-server-10.3                             install
+mariadb-server-core-10.3                        install
+mc                                              install
+mc-data                                         install
+memtester                                       install
+mime-support                                    install
+mktemp                                          install
+mlocate                                         install
+module-init-tools                               install
+mount                                           install
+mountall                                        install
+mtools                                          install
+multiarch-support                               install
+mysql-common                                    install
+nano                                            install
+ncurses-base                                    install
+ncurses-bin                                     install
+ncurses-term                                    install
+net-tools                                       install
+netbase                                         install
+nodejs                                          install
+notification-daemon                             install
+ntpdate                                         install
+odbcinst                                        install
+odbcinst1debian2:amd64                          install
+openfire                                        install
+openjdk-8-jre:amd64                             install
+openjdk-8-jre-headless:amd64                    install
+openssh-blacklist                               install
+openssh-client                                  install
+openssh-server                                  install
+openssh-sftp-server                             install
+openssl                                         install
+openssl-blacklist                               install
+p11-kit                                         install
+p11-kit-modules:amd64                           install
+passwd                                          install
+patch                                           install
+patchutils                                      install
+perl                                            install
+perl-base                                       install
+perl-modules-5.22                               install
+php-common                                      install
+php-gettext                                     install
+php-mbstring                                    install
+php-mcrypt                                      install
+php-pear                                        install
+php-phpseclib                                   install
+php-tcpdf                                       install
+php7.0-common                                   install
+php7.0-mcrypt                                   install
+php7.2-common                                   install
+php7.2-mbstring                                 install
+php7.3                                          install
+php7.3-bcmath                                   install
+php7.3-cli                                      install
+php7.3-common                                   install
+php7.3-curl                                     install
+php7.3-dev                                      install
+php7.3-gd                                       install
+php7.3-json                                     install
+php7.3-mbstring                                 install
+php7.3-mysql                                    install
+php7.3-opcache                                  install
+php7.3-readline                                 install
+php7.3-xml                                      install
+php7.3-zip                                      install
+phpmyadmin                                      install
+pinentry-gnome3                                 install
+pkg-php-tools                                   install
+plymouth                                        install
+po-debconf                                      install
+policykit-1                                     install
+postfix                                         install
+procinfo                                        install
+procmail                                        install
+procps                                          install
+psmisc                                          install
+psutils                                         install
+pwgen                                           install
+python                                          install
+python-all                                      install
+python-all-dev                                  install
+python-apt                                      install
+python-apt-common                               install
+python-augeas                                   install
+python-bs4                                      install
+python-chardet                                  install
+python-crypto                                   install
+python-dbus                                     install
+python-dev                                      install
+python-dnspython                                install
+python-gi                                       install
+python-html5lib                                 install
+python-ldb                                      install
+python-lxml                                     install
+python-minimal                                  install
+python-pip                                      install
+python-pip-whl                                  install
+python-pkg-resources                            install
+python-samba                                    install
+python-setuptools                               install
+python-six                                      install
+python-talloc                                   install
+python-tdb                                      install
+python-wheel                                    install
+python2.7                                       install
+python2.7-dev                                   install
+python2.7-minimal                               install
+python3                                         install
+python3-apt                                     install
+python3-chardet                                 install
+python3-dbus                                    install
+python3-debian                                  install
+python3-gi                                      install
+python3-minimal                                 install
+python3-pkg-resources                           install
+python3-pycurl                                  install
+python3-six                                     install
+python3-software-properties                     install
+python3.5                                       install
+python3.5-minimal                               install
+quota                                           install
+readline-common                                 install
+rpcbind                                         install
+rsync                                           install
+rsyslog                                         install
+samba                                           install
+samba-common                                    install
+samba-common-bin                                install
+samba-libs:amd64                                install
+sasl2-bin                                       install
+screen                                          install
+sed                                             install
+sensible-utils                                  install
+shared-mime-info                                install
+sharutils                                       install
+shtool                                          install
+snmp                                            install
+socat                                           install
+software-properties-common                      install
+ssl-cert                                        install
+sudo                                            install
+syslinux                                        install
+systemd                                         install
+systemd-sysv                                    install
+sysv-rc                                         install
+sysvinit-utils                                  install
+t1utils                                         install
+tar                                             install
+tcl                                             install
+tcl8.6                                          install
+tcpdump                                         install
+tcsh                                            install
+tdb-tools                                       install
+telnet                                          install
+tk                                              install
+tk8.6                                           install
+tofrodos                                        install
+traceroute                                      install
+ttf-dejavu                                      install
+ttf-dejavu-core                                 install
+ttf-dejavu-extra                                install
+ttf-freefont                                    install
+tzdata                                          install
+ubuntu-keyring                                  install
+ubuntu-mono                                     install
+ucf                                             install
+udev                                            install
+unattended-upgrades                             install
+unixodbc                                        install
+unzip                                           install
+update-inetd                                    install
+util-linux                                      install
+uuid-dev:amd64                                  install
+uuid-runtime                                    install
+vim                                             install
+vim-common                                      install
+vim-runtime                                     install
+webmin                                          install
+wget                                            install
+whois                                           install
+wide-dhcpv6-client                              install
+x11-common                                      install
+x11-utils                                       install
+x11-xkb-utils                                   install
+xauth                                           install
+xbitmaps                                        install
+xfonts-base                                     install
+xfonts-encodings                                install
+xfonts-utils                                    install
+xinetd                                          install
+xkb-data                                        install
+xserver-common                                  install
+xserver-xorg-core                               install
+xserver-xorg-input-all                          install
+xserver-xorg-input-evdev                        install
+xserver-xorg-input-synaptics                    install
+xserver-xorg-input-vmmouse                      install
+xserver-xorg-input-wacom                        install
+xterm                                           install
+xz-utils                                        install
+yarn                                            install
+zlib1g:amd64                                    install
+zlib1g-dev:amd64                                install
+dswjbr@desawisatajabar:~$
+
+
+
+/usr/share/doc/openfire
+/usr/share/openfire
+/var/log/openfire
+/var/lib/openfire
+/var/lib/openfire/plugins/userimportexport/test/java/org/jivesoftware/openfire
+/var/lib/mysql/openfire
+/etc/default/openfire
+/etc/openfire
+/etc/init.d/openfire
+
+
+/home/dswjbr/openfire.xml
+/etc/openfire/openfire.xml
+

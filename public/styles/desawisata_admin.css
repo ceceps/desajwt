@@ -1,0 +1,211 @@
+input.form-control,select.form-control{
+    font-weight: 500;
+}
+
+.dashboard-nav a.btn, .badge > a{
+    color: white;
+}
+.dashboard-nav a:hover.btn{
+    color: #6398e7;
+}
+
+.form-default .form-control{
+    padding: 8px 8px !important;
+}
+p{
+    color: rgba(0, 0, 0,0.9) !important;
+    line-height: 1.8em;
+}
+.form-custom .control-label{
+font-weight: 500;
+}
+
+label.control-label, .reset-field .control-label
+{
+    font-weight: 500;
+}
+.field-item{
+    padding-bottom: 20px;
+    border-bottom: 1px #cecece;
+    padding-left: 20px !important;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.place-information p{
+   line-height: 27px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.modal-title{
+    font-weight: 500;
+    color: #1a1a1a;
+}
+.modal-body label{
+    font-weight: 500;
+    color: #1a1a1a;
+}
+.modal-body select2{
+    padding-bottom: 5px;
+}
+
+.modal-body .col-md-6 label{
+    line-height: 0;
+    padding-top:15px;
+
+}
+.modal-body .form-group{
+    padding-bottom: 5px;
+}
+.modal-body input{
+    border: 1px solid rgba(0, 0, 0,0.9) !important;
+    line-height: 10px;
+}
+.ted-radio label em{
+    font-weight: 500;
+}
+
+th.kolom-kecil{
+    text-align: center;
+}
+
+.fieldset.has-five .field-item.kolom-kecil{
+    width: 40px;
+}
+
+.img-posting{
+    height: 300px;
+    width: 100%;
+}
+
+.modal-footer .btn-default {
+    background-color: #919da7;
+    color: white;
+}
+.modal-footer .btn-info {
+    background-color: #2196f3;
+    color: white;
+}
+.modal-footer .btn-primary {
+    background-color: #db21f3;
+    color: white;
+}
+
+.modal-footer .btn-success {
+    background-color: #28f321;
+    color: white;
+}
+table td.baris{
+    width: 160px;
+    line-height: 1em;
+    padding-right: 0;
+    padding-left:0;
+    vertical-align: top;
+}
+
+.fieldset.has-five .field-item.col-large{
+    width:calc(100% / 5);
+}
+
+.profile-name .button-group a {
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid transparent;
+    min-width: inherit;
+    max-width: inherit;
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 300;
+}
+.place-information ol, .place-information li{
+    padding-left: 15px !important;
+}
+.place-information ol li, .place-information ul li{
+    padding-left: 10px !important;
+}
+
+.form-custom .form-control{
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.map-media svg{
+    width: 100%;
+    height: 100%;
+}
+
+span.error{
+    color:red;
+    font-size: 12px;
+}
+
+.img-fluid{
+    width:100% !important;
+    /* padding-right: 10px; */
+}
+
+.img-profile{
+    max-width:100%;
+}
+
+.submit-steps, .submit-steps li {
+    display: inline-block;
+    vertical-align: top;
+}
+.submit-steps {
+    font-weight: 500;
+    font-size: 1em;
+    list-style: none;
+    margin: 5px 0 0;
+    padding: 0 5px;
+}
+.submit-steps li.active {
+    color: #3d94d6;
+}
+
+.submit-steps li.active:after {
+    border-block-end-color: blue;
+}
+
+.submit-steps li {
+    color: #888;
+    margin-right: 20px;
+    padding: 17px 0;
+}
+.list-galeri li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+.white{
+    background: #ffffff;
+}
+a.badge.badge-danger,a.badge.badge-danger:hover{
+  color: #ffffff;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    /* desawisata */
+    input#cari, select#kategori_id {
+        width: 183px;
+    }
+    .panel-title.has-option .top-option .btn.btn-add{
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hidden-large {
+        display: none !important;
+    }
+
+    input#cari{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hidden-mobile {
+        display: none !important;
+    }
+}
