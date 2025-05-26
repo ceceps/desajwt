@@ -16,6 +16,6 @@ class Provinsi extends Model
     ];
 
     public function kabupaten(){
-        return $this->hasMany('App\Kabupaten');
+        return $this->hasMany(\App\Kabupaten::class);
     }
 }

@@ -11,7 +11,7 @@ use App\DesaWisata;
 use URL;
 class ProfileDesaController extends Controller
 {
-    const MODEL = "App\ProfilDesa";
+    const MODEL = \App\ProfilDesa::class;
 
     //use RESTActions;
 

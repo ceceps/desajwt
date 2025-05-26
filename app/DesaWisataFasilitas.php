@@ -20,6 +20,6 @@ class DesaWisataFasilitas extends Model
 
     public function media()
     {
-        return $this->hasMany('App\Media', 'code_id', 'id')->where('parent_table', '=', 'r_desawisata_fasilitas');
+        return $this->hasMany(\App\Media::class, 'code_id', 'id')->where('parent_table', '=', 'r_desawisata_fasilitas');
     }
 }
