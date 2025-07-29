@@ -259,7 +259,7 @@
                 flowplayer("#video_file", {
                     ratio: 3/4,
                     splash: true,
-                    facebook: "https://www.desawisatajabar.com/",
+                    facebook: "{{ URL('/') }}",
                     embed: {
                     iframe: "{{ asset($foto) }}"
                     },

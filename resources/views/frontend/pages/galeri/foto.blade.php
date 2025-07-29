@@ -81,7 +81,7 @@
         <div class="col-lg-3 col-md-3 col-sm-4">
           <div class="side-media">
             <div class="media-small">
-              <a href="photos-detail.html">
+              <a href="{{ URL('galeri/photos-detail') }}">
                   @if(isset($latesDesaWisata))
                   @php
                        $fotoDesaWisata = @getimagesize(Config('desawisata.PATH_IMAGE_DESAWISATA').$latesDesaWisata->filename)?Config('desawisata.PATH_IMAGE_DESAWISATA').$latesDesaWisata->filename:'images/noimage.jpg';

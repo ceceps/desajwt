@@ -100,7 +100,3 @@ s.setAttribute('data-timestamp', +new Date());
 
 ```
 
-#Api Token Mapbox untuk leaflet js pengganti Google Map
-```txt
-pk.eyJ1IjoiZGVzYXdpc2F0YWphYmFyIiwiYSI6ImNqdXRmeXdlZDA2YXc0OW8xeDJ5N3ZhNmoifQ.EVNO4OtF0FQzlEDhVE8kgg
-```

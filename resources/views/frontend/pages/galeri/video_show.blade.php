@@ -238,7 +238,7 @@
           flowplayer("#long", {
             ratio: 3/4,
             splash: true,
-            facebook: "https://www.konsultablog.com/",
+            facebook: "{{  URL('/') }}",
             embed: {
               iframe: "{{ asset($foto) }}"
             },
